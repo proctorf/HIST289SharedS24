@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Daily Cincinnati Republican</journalTitle>
+            <publicationDate when="1828-12-05">December 5, 1828</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>4</page>
+            <url>https://github.com/proctorf/HIST289SharedS24/blob/main/images/lam-do/DailyCincinnati%20Republican_11_8_1828.png</url>
+            
+        </citationInfo>
+        
+        <respDesc>
+            <created resp="ftp" when="2024-03-27">Created by Lam Do</created>
+        </respDesc>
+    </header>
+    
+    
+    <transcript>
+        <p>Five Dollars Reward</p>
+        <p> A black boy about nineteen years of age, named <name xml:id=""> 
+            <hi rend="allCaps">CHARLES</hi></name>, who was bound to the 
+            subscriber, to serve until he was twenty one 
+            years of age, runaway about the middle of September 
+            last. All persons are forewarned against harboring 
+            or employing him, under the penalty of 
+            the law. The above reward will be paid for 
+            securing him in the Cincinnati jail, or for his 
+            delivery to the subscriber, living at 
+            <place placeType="origin"> the stone house on the Ohio river, 
+                four miles above Cincinnati. </place> </p>
+        <p>
+            <name xml:id=""><hi rend="allCaps">John C. Dunham</hi></name>
+        </p>
+        <p>
+            <date dateType="dateWritten" when="1828-11-08">November 8th, 1828.</date>
+        </p>
+    </transcript>
+    
+    <footer>
+        <adType type = "jailer"></adType>
+        <rewardInfo>
+            <amount minAmount="5.00">Five dollars </amount>
+            <criteria>securing him in the Cincinnati jail, or for his 
+                delivery to the subscriber</criteria>
+        </rewardInfo>
+        
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Charles">
+                Charles
+                <characteristics>
+                    <physical>
+                        <minAge years="19">19 years of age</minAge>
+                        <maxAge years="21">to serve until he was twenty-one years of age</maxAge>
+                    </physical>
+                    <countenance></countenance>
+                    <otherFeatures></otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="John" midName="C." surName="Dunham">
+                John C. Dunham
+                <enslaverInfo>living at the stone house on the Ohio river, four miles above Cincinnati</enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+                <placeName placeType="pubPlace" settlement="Cincinnati" state="Ohio" country="USA">
+                    Cincinnati jail or the stone house on the Ohio river, four miles above Cincinnati
+                </placeName>
+        </listPlace>
+        
+        
+    </footer>
+</xml>
