@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Unknown</journalTitle>
+            <publicationDate when="1827-07-27">July 27</publicationDate>
+            <publicationPlace>
+                <settlement>Monroe county</settlement>
+                <state>Va.</state>
+            </publicationPlace>
+            <page>25</page>
+        </citationInfo>
+    </header>
+    <transcript>
+        <p>Thirty Dollars Reward. RUNAWAY from the subscriber, R. living in Monroe county, Va. a Negro man named STEPHEN, about five feet seven inches high, very dark complexion, high forehead; his upper teeth prominent, and has a great impediment in his speech—had on when he went away, grey pantaloons, black vest; his coat of dark coloured twilled woolen, a small black fur hat, narrow rim, moccasins, which lace half up his legs—had also with him in a pack other clothing, to wit: one pair of white pantaloons, one pair of tow cloth do. one yellow vest, one blue cotton round about. He will perhaps change his name to Henry Wilson, having with him a pass given in that name.</p>
+        <p>The above reward will be given, and all expenses paid, if the above negro be apprehended and secured, so that the subscriber gets him again. He is supposed to be in company with two other runaway negroes.</p>
+        <p>ROBERT CAMPBELL.</p>
+    </transcript>
+    <footer>
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="30.00">Thirty Dollars</amount>
+        </rewardInfo>
+        <listPerson>
+            <persName role="enslaved" sex="m" foreName="STEPHEN" alias="Henry Wilson">
+                <characteristics>
+                    <physical>
+                        <minHeight inches="67.00">five feet seven inches</minHeight>
+                        <clothing>grey pantaloons, black vest; his coat of dark coloured twilled woolen, a small black fur hat, narrow rim, moccasins</clothing>
+                    </physical>
+                    <countenance>
+                        <speech>has a great impediment in his speech</speech>
+                    </countenance>
+                    <otherFeatures>
+                        <papersDesc papers="y">having with him a pass given in that name</papersDesc>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="pubPlace" settlement="Monroe" state="Va."></placeName>
+        </listPlace>
+    </footer>
+</xml>
+
