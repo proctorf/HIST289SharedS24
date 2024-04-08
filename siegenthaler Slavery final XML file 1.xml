@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="S24_DH289schema..rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle></journalTitle>
+            <publicationDate when=""></publicationDate>
+            <publicationPlace settlement="" state=""></publicationPlace>
+            <page></page>
+        </citationInfo>
+        <respDesc>
+            <created resp="" when=""></created>
+        </respDesc>
+    </header>
+    
+    <transcript>500 dollar reward 
+        Or one hundred dollars 
+        For each 
+        Ran away from the subscriber living at cumberland furnace, dickson County, (ten.) the following Negroes, viz: BOB a negro man about 25 or 26 years old, five feet seven or eight inches high, rounded shouldered, full negro, but not deep black; his toes middle toes on each foot contracted; he made his escape some time in september, 1819. ISHAM and DICK, ranaway from my boat as it ascended the Mississippi, on the 25th of June last, about twenty miles below Kaskaskia. ISHAM is a mulatto, about 24 or 25 years old, about five feet eight or nine inches high, likely well formed. Intelligent fellow, his feet tolerably large and fleshy. DICK, a black negro, about 25 or 26 years old, about five feet seven or eight inches high, active and well formed, no particular flesh mark recollected. TOM and TOBIAS, ranaway from this place on the 30th of june. TOM is a very bright mulatto, almost white, but his hair percievavly the curl of a negro: he is about 20 or 21 years old, about five feet eight or nine inches hight. Straight, well formed, likely fellow, and very intelligent, has been accommodated to molding, but handles tools tolerably well as a carpenter. The negro can be perceived by his nose and hair, his nose being shorter, larger, and flatter than most mens generally are. TOBIAS, a mulatto about five feet seven or eight inches high, carrying but little flesh much marked with the whip his long and slender for a negro. Their clothes got recollected except TOM - he took with him a fashionable made blue broadcloth coat, but may have changed it. These negroes may,or may not, have forged a certificate of their citizenship, either written or printed. I will give the above reward for either or all of the above negroes if lodged in any jail and securely ironed so that I get them; or I will pay a reasonable expense of bringing home.-any person apprehending those negroes might securely iron them, or they will make their escape. It is supposed they will bend their course towards the free states </transcript>
+    
+    <footer>
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="100"></amount>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Bob">bob
+                <characteristics>
+                <physical>
+                    <build></build>
+                    <maxAge years="26"></maxAge>
+                    <minAge years="25"></minAge>
+                    <maxHeight inches="68"></maxHeight>
+                    <minHeight inches="67"></minHeight>
+                    <phenotype></phenotype>
+                    <scars>middle toes contracted</scars>
+                    <build>rounded shoulders</build>
+                </physical>
+                <countenance>
+                    <previousRunaway ran="y"></previousRunaway>
+                </countenance>
+            </characteristics>
+            </persName>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Isham">Isham
+                <characteristics>
+                <physical>
+                    <build></build>
+                    <maxAge years="25"></maxAge>
+                    <minAge years="24"></minAge>
+                    <maxHeight inches="69"></maxHeight>
+                    <minHeight inches="68"></minHeight>
+                    <phenotype>mulatto</phenotype> 
+                    <build>large fleshy feet</build>
+                </physical>
+            </characteristics>
+            </persName>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Dick">Dick
+                <characteristics>
+                <physical>
+                    <minAge years="25"></minAge>
+                    <maxAge years="26"></maxAge>
+                    <minHeight inches="68"></minHeight>
+                    <maxHeight inches="69"></maxHeight>
+                    <phenotype>black negro</phenotype>
+                    <build></build>
+                </physical>
+                <countenance>
+                    <behavior>active</behavior>
+                </countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Tom">Tom
+                <characteristics>
+                <physical>
+                    <minHeight inches="68"></minHeight>
+                    <maxHeight inches="69"></maxHeight>
+                    <minAge years="20"></minAge>
+                    <maxAge years="21"></maxAge>
+                    <phenotype>bright mulatto</phenotype>
+                    <clothing>Blue Broadcloth coat</clothing>
+                    <build>well formed</build>
+                </physical>
+                <countenance></countenance>
+                <otherFeatures>
+                    <skills>carpenter</skills>
+                </otherFeatures>
+            </characteristics></persName>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Tobias">Tobias
+                <characteristics>
+                <physical>
+                    <minHeight inches="67"></minHeight>
+                    <maxHeight inches="68"></maxHeight>
+                    <phenotype>mulatto</phenotype>
+                    <build>slender</build>
+                    <scars>whip marks</scars>
+                </physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="cumberland furnace, dickson County, (ten.)"></placeName>
+        </listPlace>
+    </footer>
+</xml>
