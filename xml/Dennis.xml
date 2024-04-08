@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Liberty Hall</journalTitle>
+            <publicationDate when="1813-06-01"/>
+            <publicationPlace settlement="Cincinnati" state="Ohio"> Cincinnati, OH </publicationPlace>
+            <page> 1 </page>
+            <url>https://infoweb.newsbank.com/apps/readex/doc?p=EANX&docref;=image/v2%3A14B7B93686F47882%40EANX-150FA0856E6D73C8%402383396-150F4546141265B0%400-150F4546141265B0%40.</url>
+            <adUrl> 
+                https://github.com/proctorf/HIST289SharedS24/blob/main/images/XML_ad_Dennis.png   
+            </adUrl>
+        </citationInfo>
+        
+        
+        <respDesc>
+            <created resp="llv" when="2024-04-08">Created by London Vargo</created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>
+            <hi rend="allCaps">  50 Dollars Reward </hi>
+        </p>
+        <p>
+            Ranaway from the subscriber, living in <place placeType="origin">Scott county, Kentucky</place>, 
+            a negro man by the name of <name xml:id="">DENNIS</name>,
+            about twenty seven years of age, about five feet ten or eleven inches high, stout and well made, 
+            of a yellow complexion, has lost the sight of the left eye, is very talkative and impudent–
+            he left <place placeType="location last seen">Georgtown</place> on the <date>15th inst.</date> And was seen on the <date>17th</date>, near the house of James Theobalds, on the dry Ridge, 
+            making towards <place>Cincinnati</place>, in company with a white man–it is uncertain what dress he had on, 
+            as he probably change it often–he has probably a certificate from the clerk of the Harrison Circuit Court, 
+            where he formerly had a suit depending, in which he had set up a claim for his freedom; 
+            The certificate was allowing him the privilege of making the necessary preparation for the trial of his suit; 
+            but it is dated several years back. 
+            
+            The above reward will be given to any person that will bring said slave and deliver him to the subscriber, 
+            or for confining him in the jail of Scott county, so that I get him again, if taken in this state
+            
+            –and the further sum of fifty dollars, if taken out of the state.
+            
+        </p>
+        <p>  
+            <name xml:id=""> 
+                <hi rend="allCaps">HUGH EMISON</hi>   
+            </name> 
+        </p>
+        
+        <p>  
+            <date dateType="dateWritten" when="1813-05-19">May 19, 1813</date>   
+            48-9*
+        </p>
+        
+        <p>
+            N.B. If he is taken, it will be necessary for him to be well secured, 
+            otherwise he will make escape, as he is very strong and artful.     H.E.  
+        </p>
+        
+        
+    </transcript>
+    
+    <footer> 
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="50.00" maxAmount="100.00">50 Dollars Reward</amount>
+            <criteria>
+                The above reward will be given to any person that will bring said slave and deliver him to the subscriber, 
+                or for confining him in the jail of Scott county, if taken in this state</criteria>
+            <criteria>the further sum of fifty dollars, if taken out of the state</criteria>
+        </rewardInfo>
+        
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="DENNIS">DENNIS
+                <characteristics>
+                    <physical>
+                        <phenotype>yellow complexion</phenotype>
+                        <build>stout and well made</build>
+                        <eyes>lost the sight of the left eye</eyes>
+                        <minHeight inches="70">about five feet ten</minHeight>
+                        <maxHeight inches="71">or eleven inches high</maxHeight>
+                        <minAge years="27">about twenty seven years of age</minAge>
+                        <possessions>he has probably a certificate from the clerk of the Harrison Circuit Court</possessions>
+                    </physical>
+                    
+                    <countenance>
+                        <behavior>very talkative and impudent, he is very strong and artful</behavior>
+                    </countenance>
+                    
+                    <otherFeatures>
+                        <hadHelp>in company with a white man</hadHelp>
+                    </otherFeatures>
+                    
+                </characteristics>
+            </persName>
+            
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="HUGH" surName="EMISON">HUGH EMISON
+                <enslaverInfo>
+                  
+                </enslaverInfo>
+            </persName>
+        </listPerson>
+        
+        <listPlace>
+            <placeName placeType="lastSeen" county="Scott county" state="Ky" country="USA" geo="38.3172, 84.5641">Scott County, Kentcuky</placeName>
+            <placeName placeType="lastSeen" settlement="city" county="Scott county" state="Ky" country="USA" geo="38.2098, -84.5588">Georgetown, Ky</placeName>
+            <placeName placeType="potential destination" settlement="city" county="" state="Ohio" country="USA" geo="39.1031, -84.5120">Cincinnati</placeName>
+            
+        </listPlace>
+        
+        
+        
+    </footer>
+    
+    
+</xml>
+

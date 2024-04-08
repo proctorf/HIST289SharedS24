@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Steubenville Herald</journalTitle>
+            <publicationDate when="1816-05-26"/>
+            <publicationPlace settlement="Cincinnati" state="Ohio"> Steubenville, OH </publicationPlace>
+            <page> 4 </page>
+            <url>https://infoweb.newsbank.com/apps/readex/doc?p=EANX&docref;=image/v2%3A111FC89E23A90F10%40EANX-13EEEA84AEB84BF0%402384456-13EEA7145725BC48%403-13F1492D5D24A3BF%40Advertisement.
+            </url>
+            <adUrl> 
+                https://github.com/proctorf/HIST289SharedS24/blob/main/images/XML_ad_Gim.png
+            </adUrl>
+        </citationInfo>
+        
+        
+        <respDesc>
+            <created resp="llv" when="2024-04-08">Created by London Vargo</created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>
+            <hi rend="allCaps">  Fifty Dollars Reward </hi>
+        </p>
+        <p>
+            RANAWAY from the subscriber, on <date dateType="lastSeen">Saturday the 2d day of March last</date>, 
+            A Negro Man, named 
+            <name xml:id="">GIM</name>;
+            About 23 years of age, 5 feet 11 inches high, somewhat slender, and not very black; 
+            he is about a chesnut color: with a small ear upon one of his cheeks; I believe his right cheek; 
+            
+            he made from <place placeType ="departure">Winchester, Va</place> to <place>Pittsburgh</place>, and from thence to <place placeType="location last seen">Steubenville</place>, 
+            where I come up with him on the <date dateType="lastSeen">7th inst.</date> and though I have heard of him in said place twice, I am not able to get him. 
+            from his being harbor’d or conceal’d in or about said place–this is to forewarn all persons in the <place placeType="potential destination">state of Ohio</place>, 
+            from hiring or harboring said negro, without his producing proper credentials, according to law, 
+            under the penalty of their lives– for I am determined to risk mine in defence of my property; 
+            and the consequences may be serious with any man, who should see proper to hire or harbor said fellow after this notice. 
+            Said fellow is a pretty good blacksmith, and it is probable he will apply to work in that line.
+            
+            The above reward will be given to any person. who will secure said negro in any jail in the State of Ohio,
+            on giving notice to the subscriber, by letter, at <place placeType="pubPlace">Front Royal, Frederick Co. Va. </place>
+            
+        </p>
+        <p>  
+            <name xml:id=""> 
+                <hi rend="allCaps">HEXEKIAH CONN.</hi>   
+            </name> 
+        </p>
+        
+        <p>  
+            <date dateType="dateWritten" when="1814-05-25">April 12, 1816</date>   
+            3tq
+        </p>
+        
+    </transcript>
+    
+    <footer> 
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="50.00">Fifty Dollars Reward</amount>
+            <criteria>
+                The above reward will be given to any person. who will secure said negro in any jail in the State of Ohio,
+                on giving notice to the subscriber, by letter, at Front Royal, Frederick Co. Va.</criteria>
+        </rewardInfo>
+        
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Gim">GIM
+                <characteristics>
+                    <physical>
+                        <phenotype>not very black, about a chesnut color</phenotype>
+                        <build>somewhat slender</build>
+                        <scars>a small ear upon one of his cheeks; I believe his right cheek</scars>
+                        <minHeight inches="71">5 feet 11 inches high</minHeight>
+                        <minAge years="23">About 23 years of age</minAge>
+                    </physical>
+                    
+                    <otherFeatures>
+                        <skills>Said fellow is a pretty good blacksmith</skills>
+                    </otherFeatures>
+                    
+                </characteristics>
+            </persName>
+            
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="HEXEKIAH" surName="CONN.">HEXEKIAH CONN.
+                <enslaverInfo>
+                    I am determined to risk mine in defence of my property
+                </enslaverInfo>
+            </persName>
+        </listPerson>
+        
+        <listPlace>
+            <placeName placeType="origin" settlement="city" state="Va" country="USA" geo="39.1857, 78.1633">Winchester, Va</placeName>
+            <placeName placeType="potentialdestination" settlement="city" county="Allegheny" state="Pa" country="USA" geo="40.4406, -79.9959">Pittsburgh</placeName> 
+            <placeName placeType="location last seen" settlement="city" county="Jefferson" state="Oh" country="USA" geo="40.3698, -80.6340">Steubenville</placeName> 
+            <placeName placeType="location last seen" state="Oh" country="USA" geo="40.4173, -82.9071">Ohio</placeName> 
+            <placeName placeType="pubPlace" settlement="town" county="Warren" state="Va" country="USA" geo="38.91817 -78.19444">Front Royal, Frederick Co. Va</placeName> 
+            
+            
+        </listPlace>
+        
+        
+        
+    </footer>
+    
+    
+</xml>

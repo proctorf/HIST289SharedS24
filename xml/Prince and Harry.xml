@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Liberty Hall</journalTitle>
+            <publicationDate when="1814-06-07"/>
+            <publicationPlace settlement="Cincinnati" state="Ohio"> Cincinnati, OH </publicationPlace>
+            <page> 4 </page>
+            <url>https://infoweb.newsbank.com/apps/readex/doc?p=EANX&docref;=image/v2%3A14B7B93686F47882%40EANX-150FA0ECC14E1758%402383767-150F454B17375048%403-150F454B17375048%40</url>
+            <adUrl> 
+                https://github.com/proctorf/HIST289SharedS24/blob/main/images/XML_ad_Prince%26Henry.png
+            </adUrl>
+        </citationInfo>
+        
+        
+        <respDesc>
+            <created resp="llv" when="2024-04-08">Created by London Vargo</created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>
+            <hi rend="allCaps">  100 DOLLARS REWARD </hi>
+        </p>
+        <p>
+            RANAWAY from my farm, within 5 miles of <place placeType="origin">Louisville</place>, on the <date dateType="departure" when="1814-05-04">4th inst</date> two NEGRO MEN– named <name xml:id="">Prince</name> and <name xml:id="">Harry</name>, 
+            PRINCE is about 5 feet 6 or 8 inches high, well set for his height, 
+            about 30 years old, a little dingy with a yellowish cast; he has lost on of his fore-teeth, 
+            or there is a small gap between his teeth, I do not know which, 
+            and I think a smaller gap between his under fore-teeth; he has a tolerable good countenance only. 
+            His clothing not recollected. 
+            
+            HARRY, who sometimes calls himself King, is about the same age, but not so tall by 2 or 3 inches perhaps, 
+            more delicate made, looks quite black and sleek, has large white eyes for a negro, 
+            speaks fierce and free when spoken to, and is a smart sensible fellow to converse with.
+            
+            These negroes are at this time in the neighborhood of <place placeType="location last seen">Georgetown, Ky</place>–
+            they have been seen a day or two past at Mr. Adam Pense’s and at old Mr. Emmerson’s, on Dry-run; 
+            they intend to start in a few days for <place placeType="potential destination">Cincinnati</place>, as I am informed–from that place they intend to make their way thro the state of <place placeType="potential destination">Ohio</place>, and up the Ohio, and so on to <place placeType="potential destination">Maryland</place>. 
+            Any person delivering said negroes to me at my farm, shall receive the above reward and reasonable expenses, or fifty dollars for either of them. 				                                                   
+            
+        </p>
+        <p>  
+            <name xml:id=""> 
+                <hi rend="allCaps">DAVID L. WARD</hi>   
+            </name> 
+        </p>
+        
+        <p>  
+            <date dateType="dateWritten" when="1814-05-25">May 25, 1814</date>   
+            0-2* 
+        </p>
+        <p>
+            N.N It was their intention to have went up the Ohio to Cincinnati, 
+            when they left home; but afterwards turned their course by Georgetown, 
+            as Harry formerly lived in that neighborhood.                    D.L.W.   
+        </p>
+        
+    </transcript>
+    
+    <footer> 
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount maxAmount="100.00" minAmount="50.00">100 DOLLARS REWARD.</amount>
+            <criteria>
+                Any person delivering said negroes to me at my farm, shall receive the above reward and reasonable expenses</criteria>
+            <criteria>for either of them</criteria>
+        </rewardInfo>
+        
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Prince">Prince
+                <characteristics>
+                    <physical>
+                        <phenotype>a little dingy with a yellowish cast</phenotype>
+                        <build>well set for his height</build>
+                        <teeth>he has lost on of his fore-teeth, 
+                            or there is a small gap between his teeth, and I think a smaller gap between his under fore-teeth</teeth>
+                        <minHeight inches="66"> about 5 feet 6</minHeight>
+                        <maxHeight inches="68">or 8 inches high</maxHeight>
+                        <minAge years="30">aboout 30 years old</minAge>
+                    </physical>
+                    
+                    <countenance>
+                        <speech>he has a tolerable good countenance only</speech>
+                    </countenance>
+                    
+                    <otherFeatures>
+                        <inAGroup group="y"></inAGroup>
+                        <hadHelp>Harry</hadHelp>
+                    </otherFeatures>
+                    
+                </characteristics>
+            </persName>
+            
+            <persName role="enslaved" sex="m" foreName="Harry" alias="King" xml:id="">
+                <characteristics>
+                    <physical>
+                        <phenotype>looks quite black</phenotype> 
+                        <build>more delicate made, sleek</build>
+                        <eyes>large white eyes</eyes>
+                        <minHeight inches="63">or 3 inches</minHeight>
+                        <maxHeight inches="64">not so tall by 2</maxHeight>
+                        <minAge years="30">is about the same age</minAge>
+                    </physical>
+                    
+                    <countenance>
+                        <speech>speaks fierce and free when spoken to, and is a smart sensible fellow to converse with</speech>
+                    </countenance>
+                    
+                    <otherFeatures>
+                        <inAGroup group="y"></inAGroup>
+                        <hadHelp>Harry</hadHelp>
+                    </otherFeatures>
+                    
+                    </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="DAVID" midName="L." surName="WARD">DAVID L. WARD
+                <enslaverInfo>
+                    RANAWAY from my farm
+                </enslaverInfo>
+            </persName>
+        </listPerson>
+        
+        <listPlace>
+            <placeName placeType="origin" settlement="city" county="Jefferson" state="Ky" country="USA" geo="38.2527, -85.7585">Louisville, Ky</placeName> 
+            <placeName placeType="lastSeen" settlement="city" county="" state="Ky" country="USA" geo="38.2098, -84.5588">Georgetown, Ky</placeName>
+            <placeName placeType="potential destination" settlement="city" county="" state="Ohio" country="USA" geo="39.1031, -84.5120">Cincinnati</placeName>
+            <placeName placeType="potential destination" state="Ohio" country="USA" geo="40.4173, -82.9071">Ohio</placeName>
+            <placeName placeType="potential destination" state="Maryland" country="USA" geo="39.0458, -76.6413">Maryland</placeName>
+            
+        </listPlace>
+        
+        
+        
+    </footer>
+    
+    
+</xml>
