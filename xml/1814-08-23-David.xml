@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Users/gretaschreiber/Desktop/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Liberty Hall</journalTitle>
+            <publicationDate when="1814-08-23">August 23, 1814</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>3</page>
+            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/ad_David.png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="Greta Schreiber" when="2024-04-08"></created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>
+            <hi rend="allCaps">20 DOLLARS REWARD</hi>.
+        </p>
+        <p>
+            <hi rend="allCaps">RANAWAY</hi>from the subscriber, on
+            the 9th inst. about five miles below <place placeType="origin">Law-
+            enceburg</place>, from a boat on the passage
+            up from Orleans, a negro boy named
+            <name xml:id=""><hi rend="allCaps">DAVID</hi></name>,
+            about 16 or 17 years old, 5 feet 5 or 6
+            inches high, and very active; just above
+            the right breast are two lumps or scars,
+            supposed to be done with the whip, and
+            two similar scars on the back of the
+            neck, and two scars on the left breast,
+            one very plain, the other not quite so
+            plain. When he laughs, his eye-teeth
+            project almost out of his mouth. He has
+            a large flat nose, and very impudent
+            look. The hair on his head is very thin,
+            so that the skin is seen in streaks thro'
+            the hair. He speaks English, and in-
+            different French. The above rewars
+            and reasonable charges will be given to
+            any person apprehending and delivering
+            him to the subscriber, or confining him
+            in any way so that he may be had again.
+        </p>
+        <p>
+            <name xml:id=""><hi rend="allCaps">JOHN MEARS</hi></name>.
+            <place placeType="pubPlace">Cincinnati</place>,<date when="1814-08-23" dateType="dateWritten">August 23</date>.
+        </p>
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="20.00">20 Dollars</amount>
+            <criteria>apprehending and delivering him to the subscriber, or confining him in any way so that he may be had again.</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="David">
+                David
+                <characteristics>
+                    <physical>
+                        <teeth>When he laughs, his eye-teeth project almost our of his mouth</teeth>
+                        <scars>two scars just above the right breast, two scars on the back of the neck, two scars on the left breast</scars>
+                        <minHeight inches="65">5 feet 5 or 6 inches high</minHeight>
+                        <maxHeight inches="66">5 feet 5 or 6 inches high</maxHeight>
+                        <minAge years="16">about 16 or 17 years old</minAge>
+                        <maxAge years="17">about 16 or 17 years old</maxAge>
+                    </physical>
+                    <countenance>
+                        <behavior>very active</behavior>
+                        <other>impudent look</other>
+                    </countenance>
+                    <otherFeatures>
+                        <skills>speaks English, speaks indifferent French</skills>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            <persName xml:id="" role="enslaver" sex="m" foreName="John" surName="Mears">
+                John Mears
+                <enslaverInfo></enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" county="Lawrenceburg" state="Kentucky">Lawrenceburg</placeName>
+        </listPlace>
+    </footer>
+</xml>

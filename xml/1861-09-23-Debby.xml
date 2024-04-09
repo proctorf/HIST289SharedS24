@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Cincinnati Commercial Tribune</journalTitle>
+            <publicationDate when="1861-09-23">September 23, 1861</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>5</page>
+            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/ad_Debby.png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="Greta Schreiber" when="2024-04-08"></created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>
+            <hi rend="allCaps">$50 Reward</hi>.
+        </p>
+        <p>
+            Ran away from the subscriber on the <date when="1861-07-20" dateType="departure">20th of July</date>,
+            negro girl <name xml:id="">DEBBY</name>, aged fifteen years, medium size,
+            copper color, and had on when she left a blue plaid
+            dress. The above reward will be paid for her arrest
+            and delivery to the subscriber if taken in the City of
+            <place placeType="potential destination">Washington</place>, or $25 if taken in the State.
+        </p>
+        <p>
+            <name xml:id="">R O. MULLIKEN</name>.
+        </p>
+        <p>
+            <place placeType="origin">Upper Marlboro, Prince George County, MD</place>.,
+            <date when="1861-08-02" dateType="dateWritten">August 2, 1861</date>.
+        </p>
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="25.00" maxAmount="50.00"></amount>
+            <criteria>her arrest and delivery to the subscriber if taken in the City of Washington, or if taken in the State.</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="f" foreName="Debby">
+                Debby
+                <characteristics>
+                    <physical>
+                        <phenotype>copper color</phenotype>
+                        <build>medium size</build>
+                        <minAge years="15"></minAge>
+                        <clothing>blue plaid dress</clothing>
+                    </physical>
+                    <countenance></countenance>
+                    <otherFeatures></otherFeatures>
+                </characteristics>
+            </persName>
+            <persName xml:id="" role="enslaver" sex="m" foreName="" surName="Mulliken">
+                R O. Mulliken
+                <enslaverInfo></enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" settlement="Upper Marlboro" county="Prince George County" state="Maryland">Upper Marlboro, Prince George County, MD.</placeName>
+            <placeName placeType="potential destination" settlement="Washington" state="Ohio">City of Washington</placeName>
+        </listPlace>
+    </footer>
+</xml>
