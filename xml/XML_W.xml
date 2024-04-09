@@ -1,0 +1,97 @@
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>The Western Spy, and Hamilton Gazette</journalTitle>
+            <publicationDate when="1805-09-04">September 4, 1805</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>6</page>
+            <adUrl>https://proctorf.github.io/HIST289Ads/WesternSpyandHamiltonGazette_6_19_1802.png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="wcs" when="2024-04-07">Created by Wade Smith</created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>Fifty Dollars Reward.</p>
+        <p>RUNAWAY from the subscriber in Tenneffe, Smith County, some time ago a negro man of a yellow complexion named</p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">Bill</hi>
+            </name>
+        </p>
+        <p>near 6 feet high, light and trim built, about 25 years old, has a naked spot on the back of his head, and some scars on his breast, his clothing is too numerous to describe, as he had worked for clothes since he ran away: said negro crossed the Ohio at Kenedy’s ferry in March last; he has a forged pass with a number of names signed to it: also a certificate of his having worked with one Woods in the Illinois grant and of his good conduct while there: he had with him a brindled dog with cropped ears and short tail, and a white birth; he has altered his name and calls himself</p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">Tom Gibbs</hi>
+            </name>
+        </p>
+        <p>Any person taking up negro and will return him to the subscriber or secures him in any jail in the United States, So he gets him, shall receive the above reward and all expenses</p>
+        <p>
+            <name xml:id="">George Paine,</name>
+        </p>
+        <p>
+            <date dateType="dateWritten" when="1805-09-04">Sept. 4th, 1805</date>
+        </p>
+    </transcript>
+    <footer>
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="50.00">Fifty Dollars</amount>
+            <criteria>return him to the subscriber or secure him in any jail in the United States</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Bill" alias="Tom Gibbs">
+                Bill
+                <characteristics>
+                    <physical>
+                        <phenotype>yellow</phenotype>
+                        <build>light and trim built</build>
+                        <minHeight inches="72">near 6 feet high</minHeight>
+                        <minAge years="25">about 25 years old</minAge>
+                        <scars>some scars on his breast</scars>
+                        <clothing>his clothing is too numerous to describe, as he had worked for clothes since he ran away</clothing>
+                    </physical>
+                    <countenance>
+                        <other>crossed the Ohio at Kenedy’s ferry in March last; he has a forged pass with a number of names signed to it: also a certificate of his having worked with one Woods in the Illinois grant and of his good conduct while there</other>
+                        <other>he had with him a brindled dog with cropped ears and short tail, and a white birth</other>
+                        <passAsFree pass="n"/>
+                    </countenance>
+                    <otherFeatures>
+                        <papersDesc papers="y"/>
+                        <horse/>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            <persName xml:id="">George Paine,</persName>
+        </listPerson>
+        <listPlace>
+            <placeName settlement="Cincinnati" state="Ohio" geo="39.1031,-84.512">Tenneffe, Smith County</placeName>
+            <placeName settlement="Illinois" state="Illinois" geo="40.6331,-89.3985">Illinois grant</placeName>
+            <placeName settlement="United States" geo="">Kenedy’s ferry</placeName>
+        </listPlace>
+    </footer>
+
+        <persName xml:id="" role="enslaved" sex="m" foreName="Bill" alias="Tom Gibbs">
+            Bill
+            <characteristics>
+                <physical>
+                    <phenotype>yellow</phenotype>
+                    <build>light and trim built</build>
+                    <minHeight inches="72">near 6 feet high</minHeight>
+                    <minAge years="25">about 25 years old</minAge>
+                    <scars>some scars on his breast</scars>
+                    <clothing>his clothing is too numerous to describe, as he had worked for clothes since he ran away</clothing>
+                </physical>
+                <countenance>
+                    <other>crossed the Ohio at Kenedy’s ferry in March last; he has a forged pass with a number of names signed to it: also a certificate of his having worked with one Woods in the Illinois grant and of his good conduct while there</other>
+                    <other>he had with him a brindled dog with cropped ears and short tail, and a white birth</other>
+                    <passAsFree pass="n"/>
+                </countenance>
+                <otherFeatures>
+                    <papersDesc papers="y"/>
+                    <horse/>
+                </otherFeatures>
+            </characteristics>
+        </persName>
+</xml>
+        
