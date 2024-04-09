@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Shared%20drives/HIST289%20Course%20Materials/3%20-%20XML%20TEI/XML%20Assignment/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Scioto Gazette </journalTitle>
+            <publicationDate when="1815-11-02">  
+            </publicationDate>
+            <publicationPlace settlement="Chillicothe" state="Ohio"></publicationPlace>
+            <page>  1 </page>        <adUrl>https://raw.githubusercontent.com/proctorf/HIST289SharedS24/main/images/LR_images(cesear).png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="LR ftp" when="2024-04-08"></created>
+            
+        </respDesc>
+    </header>
+    <transcript>
+   
+   <p>Fifteen Dollar Reward </p> 
+        <p>  Ranaway from the subscriber living in cabin creek, <place ref="Lewis County, Ky" placeType="origin">Lewis County, Ky </place>on <date when="1815-10-15" dateType="departure">Sunday the 15th</date> inst A Negro Man named <name xml:id="cesear"> <hi rend="allCaps">Cesar</hi> </name>around 5 feet 9 inches high very dark. 31 years old with a tan head, his face somewhat hollow above the nose and a small scar above the temple. Had on when he went away a dark coat of home made cloth, white linen pantaloons and boots and took with him a dark silk coat. Whoever will take up said runaway and will deliver him to me or secure him in any jail so that I get him again shall receive the above reward, and all reasonable charges. </p>
+      <p> <name xml:id="JamesBarkley"> James Barkely. </name></p> 
+     <p>  <date when="1815-10-26" dateType="dateOfSubmission"> October 26 </date></p>
+        
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="15" ></amount>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="cesear" role="enslaved" sex="m" foreName="Cesear"> <characteristics>
+                <physical>
+                    <clothing> dark coat of home made cloth, white linen pantaloons,boots, a dark silk coat</clothing>
+                    <maxHeight inches="69"></maxHeight>
+                    <maxAge years="31"></maxAge>
+                    <phenotype> tan head, and very dark</phenotype>
+                    <scars> small scar above the temple</scars>
+                    
+                </physical>
+                <countenance>
+                </countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName> 
+        </listPerson>
+        <listPerson>
+            <persName xml:id="JamesBarkley" role="Enslaver" sex="m" foreName="James" surName="Barkley"> <enslaverInfo> </enslaverInfo></persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="" country="United States" county="Lewis County" state="KY" settlement="county creek"> </placeName>
+        </listPlace>
+    </footer>
+</xml>
