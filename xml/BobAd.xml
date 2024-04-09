@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+ <header>
+     <citationInfo>
+         <journalTitle>The Western Star</journalTitle>
+         <publicationDate when="1812-04-18"></publicationDate>
+         <publicationPlace settlement="Lebanon" state="Ohio"></publicationPlace>
+         <page>4</page>
+     </citationInfo>
+     <respDesc>
+         <created resp="TT" when="2024-04-09"></created>
+     </respDesc>
+ </header>   
+    <transcript>Forty Dollars Reward,
+        
+        RAN-AWAY from the subscriber on Saturday the 28th ult. Living in boon county, Kentucky, 
+        eighteen miles below the mouth of Licking, near the Ohio - a NEGRO man named,
+        
+        BOB
+        
+        Hi is about twenty years of age, very black, down look, five feet five or six inches high, 
+        well made, he took away with him a large yellow dog named ROVER, blind of one eye, 
+        the eye is not sunk, a dark colored cloth coat 2 pair of pantalons one of blue cloth, 
+        the other tow lined, a pair of old fair lo boots, one pair of old shoes, 
+        one or two waist coats(not recollected what kind,) no other clothing recollected. 
+        Whoever will apprehend said Runaway and secure him in either Warren or Hamilton county jail 
+        and give information so that i get him againshall recieve the above reward 
+        - and if deliverd to the subscriber living in Kentucky they shall have the reward aforesaid, 
+        together with all reasonable charges - paid by me,
+        
+        Edmund Garnett.
+        
+        Boon country, (KY.
+        April 4, 1812 [241]]}
+        
+        N.B. The subscriber has been informed that has altered his name to Reusem since he ranaway, he has also heared that he has exchanged his clothes
+        He has been seen a few miles from Lebanon enquiring for that place.
+        E.G.
+    
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="40"></amount>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Bob" alias="Reusem"> <characteristics>
+                <physical>
+                    <clothing>a dark colored cloth coat 2 pair of pantalons one of blue cloth, 
+                        the other tow lined, a pair of old fair lo boots, one pair of old shoes, 
+                        one or two waist coats</clothing>
+                    <build>down look</build>
+                    <phenotype>negro</phenotype>
+                    <minHeight inches="65"></minHeight>
+                    <maxHeight inches="66"></maxHeight>
+                    <maxAge years="20"></maxAge>
+                    <possessions>Yellow Dog Named Rover</possessions>
+                </physical>
+                <countenance>
+                </countenance>
+                <otherFeatures>
+                </otherFeatures>
+            </characteristics></persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="potential destination" country="USA" county="Warren, Hamilton" settlement="Boon" state="Kentucky"></placeName>
+        </listPlace>
+    </footer>
+    
+</xml>

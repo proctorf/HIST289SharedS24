@@ -1,0 +1,90 @@
+
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+<header>
+    <citationInfo>
+        <journalTitle>The Ohio State Journal</journalTitle>
+        <publicationDate when="1833-01-19"></publicationDate>
+        <publicationPlace settlement="Cincinatti" state="Ohio"></publicationPlace>
+        <page>7</page>
+    </citationInfo>
+    <respDesc>
+        <created resp="TT" when="2024"></created>
+    </respDesc>
+</header>    
+    <transcript>$300 Reward.
+        
+        Runaway from December last, a Negro Man named MOSES, about six feet high, 
+        well formed, black, abont forty years of age, is fond of spirituons liquors, 
+        and when under its influence stutters a little. He took with him a new jeans coat, 
+        and another of blue cloth, considerably worn, a white fur hat, pretty well worn, 
+        and blue jeans pantaloons. He rode away a large bay horse, belonging to Mr Tho’s H Waters, 
+        of Lexington, about 16 hands high, heavy made, paces and trots, 
+        and has a scar (or sore) near the point of his shoulder, 
+        occasioned by cutting out a warf. 
+        Said Negro has worked upon Lexington and Maysville Turnpike for some time past, 
+        in the employ of Mr Waters. The above reward of Three Hundred Dollars, 
+        will be given for him if taken out of the State; fifty dollars if 
+        in the State and out of the counties of Fayette or Bourbon; 
+        or Twenty-five dollars if in either those counties. 
+        
+        Abram Spears
+        
+        Jan’y 12, 1833
+        P.S. It is supposed that Moses is in company with a fellow named Bill, 
+        belonging to a Mr Johnson of Shelby county, but late of Bourbon. 
+        Bill Is a short, stout built negro. A liberal reward, as I learn, 
+        is offered for Bill by his Master</transcript>
+    <footer>
+        <adType type="Enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="300"></amount>
+            <criteria>in state</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Moses"><characteristics>
+                <physical>
+                    <phenotype>Negro</phenotype>
+                    <build>well formed</build>
+                    <scars>near the point of his shoulder</scars>
+                    <maxHeight inches="72"></maxHeight>
+                    <maxAge years="40"></maxAge>
+                    <clothing>new jeans coat, 
+                        and another of blue cloth, considerably worn, a white fur hat, pretty well worn, 
+                        and blue jeans pantaloons </clothing>
+                    <possessions>large bay horse</possessions>
+                </physical>
+                <countenance>
+                    <speech>stutters a little when under the influence</speech>
+                    <behavior>fond of spirituons liquors</behavior>
+                </countenance>
+                <otherFeatures>
+                    <hadHelp>Bill</hadHelp>
+                </otherFeatures>
+            </characteristics></persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="potential destination" county="Lexington, Maysvill Turnpike, Fayette, Bourbon" state="Kentucky"></placeName>
+        </listPlace>
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</xml>
+
