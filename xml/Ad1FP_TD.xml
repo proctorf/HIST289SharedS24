@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    
+    
+    <header>
+        <citationInfo>
+            <journalTitle>The Scioto Gazette</journalTitle>
+            <publicationDate when="1820-02-03"></publicationDate>
+            <publicationPlace settlement="Chillicothe" state="Ohio"></publicationPlace>
+            <page>4</page>
+            <url>https://infoweb.newsbank.com/apps/readex/doc?p=EANX&amp;docref=image/v2%3A1264B86E06B12182%40EANX-127733500CCFCCE8%402385834-127733503912A438%403-12773350D94C22A0%40Advertisement.</url>
+        </citationInfo>
+        <respDesc>
+            <created resp="TJD" when="2024-04-08"></created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>Stop Thief!</p>
+        <p>RAN away from the subscriber in the beginning of <date dateType="departure" when="1819-09-01">September</date> last, a negro man named <name xml:id="Jack">Old JACK</name>, aged about 53 years, five feet in height, and very same on account of a broken thigh. The laid Jack is very talkative, polite in his behaviour, and stole a bay mate when he absconded. The said runaway was seen in the neighborhood of <place placeType="location last seen">Chillicothe</place>. Ten Dollars reward will be given for taking him up, or securing him in any jail. Letters directed to <place placeType='pubPlace'>Marietta Post Office</place>, will be attended to.</p> 
+        <p><name xml:id="Edward Skelton">EDWARD SKELTON</name>,</p> 
+        <p><place placeType='origin'>Hugh’s River, Wood county, Virginia</place></p>
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="10.00"></amount>
+            <criteria>for taking him up, or securing him in any jail</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="Jack" alias='Old Jack' role="enslaved" sex="m" foreName="Jack">
+                <characteristics>
+                <physical>
+                    <phenotype>black</phenotype>
+                    <build>very same on account of a broken thigh</build>
+                    <minHeight inches="60"></minHeight>
+                    <minAge years="53"></minAge>
+                    <possessions>bay mate</possessions>
+                </physical>
+                <countenance>
+                    <speech>very talkative</speech>
+                    <behavior>polite</behavior>
+                </countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="Edward" role="enslaver" sex="m" foreName="Edward" surName="Skelton">                
+                <enslaverInfo></enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="location last seen" settlement='neighborhood of Chillicothe' county='Ross' state='Ohio'></placeName>
+        </listPlace>
+        <listPlace>
+            <placeName placeType="pubPlace" settlement="Marietta Post Office"></placeName>
+        </listPlace>
+        <listPlace>
+            <placeName placeType="origin" settlement="Hugh's River" county="Wood County" state="Virginia"></placeName>
+        </listPlace>
+    </footer>
+</xml>
