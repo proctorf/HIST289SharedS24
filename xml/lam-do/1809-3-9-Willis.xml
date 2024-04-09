@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Liberty Hall</journalTitle>
+            <publicationDate when="1809-03-09">March 9,1809</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>4</page>
+            <url>https://github.com/proctorf/HIST289SharedS24/blob/main/images/lam-do/LibertyHall_3_9_1809.png</url>
+            
+        </citationInfo>
+        
+        <respDesc>
+            <created resp="ftp" when="2024-03-27">Created by Lam Do</created>
+        </respDesc>
+    </header>
+    
+    
+    <transcript>
+        <p>30 Dollars Reward</p>
+        <p>
+            Ran away from <name xml:id="">Francis Sibert</name>, of 
+            <place placeType="origin">Shanandoah county, Virginia,</place> 
+            on the <date dateType="departure" when="1807-06-06">6th of June 1807</date>, 
+            a Negro man by the name of <name xml:id="">Willis</name>, 
+            about 25 or 26 years of age, yellow complexion, slow of speech, 
+            and when standing his knees incline back, he took with 
+            him a gun and watch, and was pursued all most to Marietta 
+            on the Ohio – had with him a Pass that called him Wills 
+            or Willis – he said he was going to the State of Ohio, 
+            and was freed by a Methodist preacher. Any person who will 
+            take up said Negro, and lodge him in Cincinnati Jail, 
+            shall have the above reward and all reasonable charges paid by me.
+        </p>
+        <p>
+            <name xml:id="">Benjamin Craig</name>
+        </p>
+        <p>
+            <date dateType="dateWritten" when="1808-10-06">October 6, 1808</date>
+        </p>
+    </transcript>
+    
+    <footer>
+        <adType type = "jailer"></adType>
+        <rewardInfo>
+            <amount minAmount="30.00">30 Dollars</amount>
+            <criteria>take up said Negro, and lodge him in Cincinnati Jail</criteria>
+        </rewardInfo>
+        
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Willis">
+                Charles
+                <characteristics>
+                    <physical>
+                        <build>when standing his knees incline back</build>
+                        <phenotype>yellow complexion</phenotype>
+                        <minAge years="25">25 or 26 years of age</minAge>
+                        <maxAge years="26">25 or 26 years of age</maxAge>
+                        <possessions>took with him a gun and watch</possessions>
+                    </physical>
+                    <countenance>
+                        <speech>slow of speech</speech>
+                    </countenance>
+                    <otherFeatures>
+                        <papersDesc papers="y">had with him a Pass that called him Wills 
+                            or Willis</papersDesc>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="Francis" surName="Silbert">
+                Francis Silbert
+                <enslaverInfo></enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+                <placeName placeType="origin" county="Shanandoah" state="Virginia" country="USA">
+                    Shanandoah county, Virginia
+                </placeName>
+        </listPlace>
+    </footer>
+</xml>
