@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>The Western Spy and Hamilton Gazette 
+            </journalTitle>
+            <publicationDate when="1818-07-10">July 10, 1818</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>6</page>
+            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/nancy-tran/1818_Ben_TheWesternSpy.png</adUrl>
+            
+        </citationInfo>
+        
+        <respDesc>
+            <created resp="ftp" when="2024-04-08">Created by Nancy Tran</created>
+        </respDesc>
+    </header>
+    
+    
+    <transcript>
+        <p>100 DOLLARS REWARD</p>
+        <p>Ranaway from the subscriber, in <place ref = "Mayslick, KY" placeType="origin">Mayslick, KY</place>, on the
+            <date dateType="departure" when="1818-06-30"> 30th of June last </date> a Negro Man named</p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">Ben</hi>
+            </name>
+        </p>
+        <p>, He is about 23 years of age, supposed to be about 5 feet and 11 inches high, stout made and well proportioned-of
+            a dark complexion: no other marks recollected. He is very bold, and will him a small Bay Horse, saddle, and bridle,
+            which he disposed of on White oak Creek, Ohio, and then stole them again: and, on Saturday last, sold them in Cincinnati.
+            He has since been seen on the road leading to<place
+                placeType="destination">Urbana</place>. 
+            Had on when he went away, a pair of tow linen pantaloons, cloth coat, and roram hat, but, having a pair of nankeen 
+            pantaloons, and a gingham roundabout with him, it is expected he will change his clothing. 
+            The above reward of One Hundred Dollars will be given if taken any where out of Kentucky, and all reasonable charges
+            paid if brought home and Twenty-Five Dollars if taken within the state of Kentucky. 
+            
+        </p>
+        <p>
+            <name xml:id="">Thomas. T. Summers</name>
+        </p>
+        <p>
+            <date dateType="dateWritten" when="1818-07-10">July 10,1818</date>
+        </p>
+    </transcript>
+    
+    <footer>
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="100.00"></amount>
+            <criteria>if taken any where out of Kentucky</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Ben"
+                >Aaron
+                <characteristics>
+                    <physical>
+                        <phenotype>of a dark complexion </phenotype>
+                        <build> stout made and well proportioned </build>
+                        <minHeight inches="71">5 feet and 11 inches</minHeight>
+                        <minAge years="23"> about 23 years of age</minAge>
+                        <clothing>a pair of tow linen pantaloons, cloth coat, 
+                            and roram hat, but, having a pair of nankeen pantaloons, 
+                            and a gingham roundabout with him</clothing>
+                    </physical>
+                    
+                    <countenance>
+                        <behavior>very bold</behavior>
+                    </countenance>
+                    
+                    <otherFeatures>
+                        <horse hadHorse="y">a small Bay Horse, saddle, and bridle, 
+                            which he disposed of on White oak Creek, Ohio, and then stole
+                            them again: and, on Saturday last, sold them in Cincinnati </horse>
+                        
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="Thomas" surName="Summers">Thomas. T. Summers
+                <enslaverInfo></enslaverInfo>
+            </persName>
+        </listPerson>
+        
+        <listPlace>
+            <placeName county="Mason" placeType="origin" state="Kentucky"
+                country="USA" geo="38.51787, -83.86995"> Mayslick, KY </placeName>
+            
+            <placeName placeType="destination" state="Ohio" country="USA"
+                geo="40.1084, -83.7524">Urbana</placeName>
+            
+            <placeName placeType="destination" geo ="">Urbana</placeName>
+        </listPlace>
+        
+        
+    </footer>
+</xml>

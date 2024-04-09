@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Scocioto Gazette</journalTitle>
+            <publicationDate when="1810-01-13">January 13, 1810</publicationDate>
+            <publicationPlace settlement="Chillicothe" state="Ohio">Chillicothe, OH</publicationPlace>
+            <page>6</page>
+            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/nancy-tran/1810_Aaron_ScociotoGazette.png</adUrl>
+            
+        </citationInfo>
+        
+        <respDesc>
+            <created resp="ftp" when="2024-04-08">Created by Nancy Tran</created>
+        </respDesc>
+    </header>
+    
+    
+    <transcript>
+        <p>A Runaway Negro</p>
+        <p>Ran-Away from the subscriber, living in <place ref = "Clark county, KY" placeType="origin">Clarke county, Kentucky</place>, on the
+            <date dateType="departure" when="1809-12-20"> 20th of December, 1809 </date> a Negro Man named</p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">Aaron</hi>
+            </name>
+        </p>
+        <p>, around thirty-siz years of age, judged to he about five feet six inches high, very artful, 
+            has a scar on his forehead, and I believe a split in one of his finger nails; he carried with
+            him a black pair of linsey overalls, also one black pair of condutoy overalls, a blue broad-cloth
+            surtout coat, a brown great-coat, a black sattin wast-coast, an old fur hat dressed over, a pair 
+            of shoes laced up before, and a pair of boots; but it is probable he may have changed both his 
+            clothes and his names. It is expected some person has given him a pass. He took away with him a 
+            dark bay Horse, about 14 and 1-2 bands high, with a blushy tail, and I believe he has a small
+            star on in his foreheed, but cannot recollect whether he is branded or not. I expect he will 
+            cross<place
+                placeType="destination">Ohio</place>. 
+            Besides what the law allows, I will liberally reward any person who will deliver said Negro man
+            and horse, or either of them, to me, or secure said Negro man in any jail in the United States 
+            so that I can get him again. Whoever takes him up must be extremely cautious or he will make his
+            escape.
+        </p>
+        <p>
+            <name xml:id="">Reichard Hickman</name>
+        </p>
+        <p>
+            <date dateType="dateWritten" when="1810-01-04">January 04,1810</date>
+        </p>
+    </transcript>
+    
+    <footer>
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="0"></amount>
+            <criteria>deliver said Negro man and horse, or either of them, to me, or secure said Negro man
+                in any jail in the United States so that I can get him again</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Aaron"
+                >Aaron
+                <characteristics>
+                    <physical>
+                        
+                        <build> has a scar on his forehead, and I believe a 
+                            split in one of his finger nails </build>
+                        <minHeight inches="66">five feet siz inches</minHeight>
+                        <minAge years="36"> about thirty-six years of age</minAge>
+                        <clothing>a black pair of linsey overalls, also one black pair of condutoy overalls,
+                            a blue broad-cloth surtout coat, a brown great-coat, a black sattin wast-coast,
+                            an old fur hat dressed over, a pair of shoes laced up before, and a pair of boots</clothing>
+                    </physical>
+                    
+                    <countenance>
+                        <behavior>very artful</behavior>
+                        <passAsFree pass="y">some person has given him a pass</passAsFree>
+                    </countenance>
+                    
+                    <otherFeatures>
+                        <horse hadHorse="y">dark bay Horse, about 14 and 1-2 bands high, with a bushy tail, and I believe he has 
+                            a small star in his forehead, but cannot recollect whether he is branded or not </horse>
+                       
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="Reichard" surName="Hickman">Reichard Hickman <characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+        </listPerson>
+        
+        <listPlace>
+            <placeName county="Clark" placeType="origin" state="Kentucky"
+                country="USA" geo="37.9700, -84.1500"> Clark county, Kentucky </placeName>
+            
+            <placeName placeType="destination" state="Ohio" country="USA"
+                geo="40.367474, -82.996216">Ohio</placeName>
+            
+            <placeName placeType="destination" geo ="">Ohio</placeName>
+        </listPlace>
+        
+        
+    </footer>
+</xml>
