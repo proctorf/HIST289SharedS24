@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../../../../../Downloads/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <articleTitle>150 Dollars Reward</articleTitle>
+            <journalTitle>Ohio State Journal</journalTitle>
+            <publicationDate when="1829-06-15"></publicationDate>
+            <publicationPlace settlement="Columbus" state="Ohio"></publicationPlace>
+            <page>4</page>
+        </citationInfo>
+        <respDesc>
+            <created resp="em" when="2024-04-08"></created>
+        </respDesc>
+    </header>
+    
+    <transcript>
+        <p>
+            <hi rend="allCaps">150 dollars reward</hi>
+        </p>
+        <p>
+            Ranaway from the subscriber, living on <place placeType="origin">Steel Run, Nicholas county, Kentucky</place>, on the night of the 
+            <date when="1829-05-23" dateType="departure">23d of May
+            </date>
+            , a Negro man named
+        </p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">Lewis</hi>
+            </name>
+            ,
+        </p>
+        <p>
+            About 32 or 33 years of age, about 5 feet 6 or 7 inches high, of a mild voice, and apt to look down when spoken to; his complexion is of a dark brown color; took with him a dark janes coat and an old blue cloth coat, and several different kinds of pantaloons, a plaid cloak, lined with green baize, and a fur hat. He stole and took with him a large Sorrel Horse, a few white hairs in his forehead, trots and paces well, mane wore off on the top of his neck; he has a mark little above his nose; the mark has the appearance as if he had been doctored for the big head.--it is probable he may have obtained a pass or have been conducted by some white man.
+        </p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">Ambrose Sims</hi>
+            </name>.
+        </p>
+        <p>
+            <date when="1829-06-15" dateType="dateofSubmission">June 15, 1829</date>.
+        </p>
+    </transcript>
+    
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="150"></amount>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Lewis">
+                <characteristics>
+                    <physical>
+                        <minAge years="32"></minAge>
+                        <maxAge years="33"></maxAge>
+                        <minHeight inches="66"></minHeight>
+                        <maxHeight inches="67"></maxHeight>
+                        <phenotype>dark brown</phenotype>
+                        <possessions>took with him a dark janes coat and an old blue cloth coat, and several different kinds of pantaloons, a plaid cloak, lined with green baize, and a fur hat</possessions>
+                    </physical>
+                    <countenance>
+                        <behavior>apt to look down when spoken to</behavior>
+                        <speech>mild voice</speech>
+                        <passAsFree pass="y"></passAsFree>
+                    </countenance>
+                    <otherFeatures>
+                        <hadHelp>probable he may have been conducted by some white man</hadHelp>
+                        <horse hadHorse="y">took with him a large Sorrel Horse, a few white hairs in his forehead, trots and paces well, mane wore off on the top of his neck; he has a mark little above his nose; the mark has the appearance as if he had been doctored for the big head</horse>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="" role="enslaver" sex="m" foreName="Ambrose" surName="Sims">
+                <enslaverInfo>
+                </enslaverInfo>
+            </persName>
+        </listPerson>
+        
+        <listPlace>
+            <placeName placeType="pubPlace" country="United States" county="Franklin" settlement="Columbus" state="Ohio"></placeName>
+        </listPlace>
+        <listPlace>
+            <placeName placeType="origin" state="Kentucky" county="Nicholas" country="United States" settlement="Steel Run"></placeName>
+        </listPlace>
+    </footer>
+</xml>

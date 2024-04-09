@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../../../Shared%20drives/HIST289%20Course%20Materials/3%20-%20XML%20TEI/XML%20Assignment/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <articleTitle>20 Dollars Reward</articleTitle>
+            <journalTitle>Daily Cincinnati Republican</journalTitle>
+            <publicationDate when="1829-10-30"></publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio"></publicationPlace>
+            <page>3</page>
+        </citationInfo>
+        <respDesc>
+            <created resp="em" when="2024-03-07"></created>
+        </respDesc>
+    </header>
+    
+    <transcript>
+        <p>
+            <hi rend="allCaps">20 dollars reward</hi>.
+        </p> 
+        <p>
+            Ran away from the subscriber, on 
+            <date when="1829-10-09" dateType="departure">Saturday evening, the 9th inst.
+            </date>
+            a <hi rend="allCaps">negro man</hi> slave named 
+            <name xml:id="">
+                <hi rend="allCaps">Frank</hi>
+            </name>
+            , aged about 35 or 36 years, five feet eight inches high, or thereabout. Said slave is very black, with white teeth, a pleasing countenance, very talkative to those he is acquainted with, but reserved to strangers; is fond of making use of high-sounding words; will deny stoutly being a runaway, but can be easily found out by being cross-questioned, where he is from, whom he knows, &amp;c. When he went away he had on tow linen pantaloons, flax linen shirt, and probably took pantaloons of good quality, one dimity, and one blue cassimere vest.
+        </p>
+        <p>
+            A reward of $20 will be given for the apprehension and delivery of said slave to me in 
+            <place placeType="pubPlace">Lexington
+            </place>
+            , if taken out of the state, or $10 if taken in the state, and all reasonable expenses paid, or the above mentioned reward paid if secured in any jail so that I can get him again.
+        </p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">Daniel Trotter</hi>
+            </name>.
+        </p>
+        <p>
+            <place placeType="pubPlace">
+                Lexington, Ky.
+            </place>, 
+            <date when="1829-10-12" dateType="dateOfSubmission">October 12, 1829</date>. 710w3 
+        </p>
+    </transcript>
+    
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="10"></amount>
+            <criteria>if taken in the state or secured in jail, 20 if taken out of state and returned </criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Frank">
+            <characteristics>
+                <physical>
+                    <minAge years="35"></minAge>
+                    <maxAge years="36"></maxAge>
+                    <minHeight inches="68"></minHeight>
+                    <maxHeight inches="68"></maxHeight>
+                    <phenotype>very black</phenotype>
+                    <teeth>white</teeth>
+                    <clothing>tow linen pantaloons, flax linen shirt</clothing>
+                    <possessions>probably took pantaloons of good quality, one dimity, and one blue cassimere vest</possessions>
+                </physical>
+                <countenance>
+                    <behavior>pleasing</behavior>
+                    <behavior>very talkative to those he is acquainted with</behavior>
+                    <behavior>reserved to strangers</behavior>
+                    <speech>fond of making use of high-sounding words</speech>
+                    <behavior>will stoutly deny being a runaway</behavior>
+                    <other>can be easily found out by being cross-questioned</other>
+                </countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics>
+            </persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="" role="enslaver" sex="m" foreName="Daniel" surName="Trotter">
+            <enslaverInfo>
+            </enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" settlement="Lexington" country="United States" state="Kentucky" ></placeName>
+        </listPlace>
+        <listPlace>
+            <placeName placeType="pubPlace" state="Ohio" settlement="Cincinnati"></placeName>
+        </listPlace>
+    </footer>
+    
+</xml>
