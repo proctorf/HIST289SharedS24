@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Shared%20drives/HIST289%20Course%20Materials/3%20-%20XML%20TEI/XML%20Assignment/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+   <header>
+       <citationInfo>
+           <journalTitle>Ohio Republican</journalTitle>
+           <publicationDate when="1815-10-09"></publicationDate>
+           <publicationPlace settlement="Dayton" state="Ohio"></publicationPlace>
+           <page>1</page>
+           <adUrl> https://raw.githubusercontent.com/proctorf/HIST289SharedS24/main/images/LR_image(kit).png
+           </adUrl>
+       </citationInfo>
+       <respDesc>
+           <created resp="LR" when="2024-04-08"></created>
+       </respDesc>
+   </header> 
+    <transcript>
+       <p> <hi rend="bold"></hi>50 dollars Reward </p>
+      <p>  Runaway without Provocation </p>
+       <p> I purchased a negro man named <name xml:id="Kit"> <hi rend="allCaps">Kit </hi></name>, several years ago out of 
+           <place placeType="pubPlace">Georgetown jail, Scott County,</place>
+           (where he was cold and ragged.) He is a good workman at common carpenter’s work: I hired him in this county where he was well used; while I was at the city of 
+           <place placeType="pubPlace">Washington</place>
+           last winter, Kit stole a saddle and bridle, and acted in many respects very basely. Expecting detection, he ranaway to the
+           <place placeType="potential destination"> Ohio, (Gallatin county)</place> 
+           and remained in the 
+           <place placeType="location last seen">neighborhood of my father’s</place>
+           until 
+           <date when="1815-02-01" dateType="last seen">some time in February</date>
+           last, when he ranaway again. It is expected that he crossed the Ohio river and is in the 
+           <place placeType="potential destination">Indiana territory</place>
+           , or in <place placeType="potential destination">the state of Ohio</place>
+           ; or he may have descended the river Ohio and either gone to
+           <place placeType="potential destination"> Nachez </place>
+           or 
+           <place placeType="potential destination">
+               Oregons or stopped on the way</place>: soon after he ran away a man coming up to his description attempted violence upon some houses near Vevay containing only females. He acted very ungratefully to me, and he is altogether a dangerous person to be at his liberty, and altogether unworthy to be without control. He may be about 40 years old, very large, weighing about 200, but not much over common height- he is a mullatto color, and has a peculiarity of walk, swinging himself along, working his arms and body as if walking with them: he is bowlegged and has a gap in his teeth before. I will give 50 dollars to any person who will lodge him in any jail where I can get him, or 50 dollars and the expense of bringing him to me in 
+           <place placeType="origin">Scott County, Ky.</place>
+           near Georgetown. </p>
+       <p><name xml:id="RichardMJohnson"> Richard M.Johnson.</name></p>
+       <p> Blue Spring, Scott county, Ky. Sept 4. </p>
+       <p>Every paper in the state of Ky. and Ohio are requested to publish the above adv’t three times and forward their accounts which shall be paid without cost of postage. 
+        R.M.J</p> 
+        
+        
+    </transcript>
+    
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="50"></amount>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="Kit" role="enslaved" sex="m" foreName="Kit"> 
+            <characteristics>
+                <physical>
+                    <build> very large, weighing about 200, bowlegged</build>
+                    <possessions>Saddle and Bridle</possessions>
+                    <maxAge years="40"></maxAge>
+                    <phenotype> mullatto color</phenotype>
+                    <teeth>gap in his teeth</teeth>
+                   
+                </physical>
+                <countenance>
+                    <previousRunaway ran="y"></previousRunaway>
+                    <behavior>has a peculiarity of walk, behaves basely</behavior>
+                </countenance>
+                <otherFeatures>
+                    <skills>carpenter</skills>
+                </otherFeatures>
+            </characteristics>
+            </persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="RichardMJohnson" role="enslaver" sex="m" foreName="Richard" surName="Johnson" midName="M"> 
+                <enslaverInfo>
+                   
+                </enslaverInfo> </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="pubPlace" country="United States" settlement="George Town" county="Scott County" state="Ohio"></placeName>
+        </listPlace>
+        <listPlace>
+            <placeName placeType="pubPlace" county="Washington"></placeName>
+        </listPlace>
+        <listPlace>
+            <placeName placeType="potential destination" state="Ohio" county="Gallatin County"></placeName>
+        </listPlace>
+        <listPlace>
+            <placeName placeType="potential destination" county="indianna territiory" country="United States"></placeName> 
+            <placeName placeType="potential destination" country="United States" settlement="Nanchez"></placeName>
+            <placeName placeType="potential destination" state="Oregons"></placeName>
+            <placeName placeType="origin" state="KY" settlement="Blue Spring" county="Scott County" country="United States"></placeName>
+        </listPlace>
+    </footer>
+    
+</xml>
