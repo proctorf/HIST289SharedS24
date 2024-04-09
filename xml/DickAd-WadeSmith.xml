@@ -1,0 +1,51 @@
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Ohio Herald</journalTitle>
+            <publicationDate when="1806-11-15">November 11, 1806</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Chillicothe, OH</publicationPlace>
+            <page>6</page>
+            <adUrl>https://proctorf.github.io/HIST289Ads/WesternSpyandHamiltonGazette_6_19_1802.png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="wcs" when="2024-04-07">Created by Wade Smith</created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>50 DOLLARS REWARD.</p>
+        <p>Runaway from David L. Ward, living at Mann’s lick, on the 3rd of September, a Negro man, named DICK, between 35 and 40 years of age, about five feet 8 or 10 inches high, yellowish complexion, somewhat bald, the little finger on the right hand and the next to it grows together and is crooked. I am informed a fellow of his description was seen between Lebanon and Chillicothe, and says he was set free by a Mr James Suggelt, a baptist preacher near Georgetown, kent. He is an arch fellow, and in all probability has obtained a pass and changed his name. The above reward will be given to any person who will deliver the said fellow to the subscriber living near Georgetown, Kent. or twenty dollars to confine him in any jail so that I may get him.</p>
+        <p>Wm. Barkner.</p>
+    </transcript>
+    <footer>
+        <adType type="enslaver"/>
+        <rewardInfo>
+            <amount minAmount="50.00">Fifty Dollars</amount>
+            <criteria>deliver the said fellow to the subscriber living near Georgetown, Kent. or twenty dollars to confine him in any jail</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaver" sex="m" foreName="David L." alias="">
+                David L.
+                <characteristics>
+                    <physical>
+                        <minHeight inches="68">about five feet 8 or 10 inches high</minHeight>
+                        <minAge years="35">between 35 and 40 years of age</minAge>
+                        <phenotype>yellowish complexion</phenotype>
+                        <scars>the little finger on the right hand and the next to it grows together and is crooked</scars>
+                        <other>somewhat bald</other>
+                    </physical>
+                    <countenance>
+                        <other>I am informed a fellow of his description was seen between Lebanon and Chillicothe, and says he was set free by a Mr James Suggelt, a baptist preacher near Georgetown, kent. He is an arch fellow, and in all probability has obtained a pass and changed his name.</other>
+                        <passAsFree pass="n"/>
+                    </countenance>
+                </characteristics>
+            </persName>
+            <persName xml:id="">Wm. Barkner.</persName>
+        </listPerson>
+        <listPlace>
+            <placeName settlement="Mann’s lick" state="Kentucky" geo="">Mann’s lick</placeName>
+            <placeName settlement="Lebanon" state="Ohio" geo="">Lebanon</placeName>
+            <placeName settlement="Chillicothe" state="Ohio" geo="">Chillicothe</placeName>
+            <placeName settlement="Georgetown" state="Kentucky" geo="">Georgetown, Kent.</placeName>
+        </listPlace>
+    </footer>
+</xml>
