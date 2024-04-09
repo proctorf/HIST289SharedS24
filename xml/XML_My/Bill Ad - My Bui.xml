@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Shared%20drives/HIST289%20Course%20Materials/3%20-%20XML%20TEI/XML%20Assignment/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo> 
+            <journalTitle>The Western Spy</journalTitle>
+            <publicationDate when="1805-09-04">September 4, 1805</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio"> </publicationPlace>
+            <page>3</page>            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/XMLad(Bill)_My.png</adUrl>
+           </citationInfo>
+        <respDesc>
+            <created resp="ftp" when="2024-04-08">Created by My Bui</created>
+        </respDesc>
+    </header>
+    <transcript>
+        Fifty Dollars Reward. RUNAWAY from the subscriber in Tenneffe, Smith County, some time ago a negro man of a yellow complexion, named Bill, near 6 feet high, light and trim built, about 25 years old, has a naked spot on the back of his head, and some scars on his breast, his cloathing is too numerous to describe, as he has worked for clothes since he runaway: said negro crossed the Ohio at Kenedy's ferry in March last; he has a forged pass with a number of names signed to it; also a certificate of his having worked with one Woods in the Illinois grant and of his good conduct while there: he had with him a brindled dog with crop'd ears and short tail, and a white bitch; he has altered his name and calls himself Tom Gibbs. Any person taking up negro and will return him to the subscriber or secures him in any jail in the United States, so he gets him shall receive the above reward and all reasonable expences.
+        Sept, 4th, 1805.
+        George Paine.   
+    </transcript>
+    <footer>
+        <adType type="Runaway Ad"></adType>
+        <rewardInfo>
+            <amount minAmount="50.00">Fifty Dollars and all reasonable expenses</amount>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved person" sex="m" foreName="Bill">
+                <characteristics>
+                    <physical>
+                        <phenotype>Yellow complexion</phenotype>
+                        <build>Light and trim build</build>
+                        <scars>has a naked spot on the back of his head, and some scars on his breast</scars>
+                        <minAge years="25">About twenty-five years old</minAge>
+                        <minHeight inches="72">About six feet</minHeight>
+                        <clothing>too numerous to describe</clothing>
+                        <possessions>has a forged pass with a number of names signed to it; also a certificate of his having worked with one Woods in the Illinois grant and of his good conduct while there: he had with him a brindled dog with crop'd ears and short tail, and a white bitch</possessions>
+                    </physical>
+                    <countenance>
+                        <behavior>altered his name and calls himself Tom Gibbs</behavior>
+                    </countenance>
+                    <otherFeatures></otherFeatures>
+                </characteristics>
+            </persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="" role="enslaver" sex="m" foreName="George" surName="Paine">
+                <enslaverInfo></enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" settlement="Tenneffe" county="Smith" country="USA"> 
+            </placeName>
+            <placeName placeType="location last seen" geo="Kenedy's ferry" state="Ohio" country="USA"></placeName>
+        </listPlace>
+    </footer>
+</xml>
