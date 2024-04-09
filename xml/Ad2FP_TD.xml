@@ -1,2 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Downloads/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    
+    
+    <header>
+        <citationInfo>
+            <journalTitle>The Scioto Gazette</journalTitle>
+            <publicationDate when="1820-04-27"></publicationDate>
+            <publicationPlace settlement="Chillicothe"
+                state="Ohio"></publicationPlace>
+            <page>1</page>           
+            <url>https://infoweb.newsbank.com/apps/readex/doc?p=EANX&amp;docref=image/v2%3A1264B86E06B12182%40EANX-1277335C5F957300%402385918-1277335C6F9E6E00%400-1277335CC4DF73A8%40Advertisement</url>
+            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/Bock_Ad.png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="TJD" when="2024-04-08"></created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>Two hundred Dollars Reward.</p> 
+        <p>Ran away from the subscriber, on <date dateType="departure" when="1820-04-09">the 9th inst</date>. A Negro Man, named <name xml:id="Bock">Bock</name>; a bright mulatto, about 23 years of age, 5 feet 11 inches or 6 feet high, rather slender, straight made, has a down look when spoken to: as he had a variety of clothing it is difficult to describe them. He has been accustomed to work in a Tobacco manufactory, and is a good rough shoemaker. Being an artful, cunning fellow, ‘tis probable he has procured forged papers, and will endeavour to get into <place placeType="potential destination">Indiana</place> or <place placeType="potential destination">Ohio</place>, and attempt to pass for a free man. </p>
+        <p>The above reward will be given on his delivery here, or for securing him in jail so that I get him again.</p> 
+        <p><name xml:id="George">GEORGE ATKINSON</name>. </p>
+        <p><place placeType="origin">Henderson, Ky</place>. 18th</p> 
+        
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="200.00"></amount>
+            <criteria>on his delivery here, or for securing him in jail so that I get him again</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="Bock" role="enslaved" sex="m" foreName="Bock"><characteristics>
+                <physical>
+                    <phenotype>mulatto</phenotype>
+                    <build>rather slender</build>
+                    <build>straight made</build>
+                    <minHeight inches="71"></minHeight>
+                    <maxHeight inches="72"></maxHeight>
+                    <minAge years="23"></minAge>
+                    <clothing>variety</clothing>
+                </physical>
+                <countenance>
+                   <behavior>has a down look when spoken to</behavior> 
+                   <behavior>artful</behavior>
+                    <behavior>cunning</behavior>
+                    <passAsFree pass="y"></passAsFree>
+                </countenance>
+                <otherFeatures>
+                    <skills>Tobacco manufactory</skills>
+                    <skills>Rough shoe maker</skills>
+                    <papersDesc papers="y"></papersDesc>
+                </otherFeatures>
+            </characteristics>
+            </persName>
+            <persName xml:id="George" role="enslaver" sex="m" foreName="George" surName="Atkinson"><enslaverInfo></enslaverInfo></persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="potential destination" state="Indiana"></placeName>
+            <placeName placeType="potential destination" state='Ohio'></placeName>
+            <placeName placeType="origin" settlement="Henderson" state="Kentucky"></placeName>
+        </listPlace>
+    </footer>
+</xml>
 
