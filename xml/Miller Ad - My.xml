@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Shared%20drives/HIST289%20Course%20Materials/3%20-%20XML%20TEI/XML%20Assignment/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>Charleston Courier</journalTitle>
+            <publicationDate when="1840-01-07">January 7, 1840</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>6</page>
+            <url>https://github.com/proctorf/HIST289SharedS24/blob/main/images/XMLad_My.png</url>
+            
+        </citationInfo>
+        
+        <respDesc>
+            <created resp="ftp" when="2025-03-27">Created by My Bui</created>
+        </respDesc>
+    </header>
+    
+    <transcript>
+        RANAWAY FROM the subscriber, on Monday the twenty-first: inst. my negro man MILLER, about twenty-eight or thirty years of age; about six feet high; straight made, tolerably black colour; wide mouth; thick lips; fat nose, and has lost 3 or 4 of his upper fore teeth, weighing about 175 lbs. rawboned and a very stout man. One of his heels is considerably larger than the other, and appears to be swollen, occasioned from his having had the white swelling, and has a noted scar or sore on the back part of his neck, about the size of the palm of a man's hand, and generally wears a black patch over it. He had on when he went away, an old blue jeans coat, and a new pair of white linsy pantaloons; and took with him a variety of other clothing not recollected. He is a very intelligent fellow, and it is probable he will aim to get into a free State, and will procure a free pass. Any person that will apprehend the said fellow, and bring him home to me, at my house in Anderson county, 5 miles from Lawrenceburg, near the road leading to Harrodsburg, shall receive a reward of $15 if taken in either of the adjoining counties, or twenty dollars, if taken out of said counties and in the State, or a likely young Negro to be worth one hundred and fifty dollars, if taken out of the State and brought home. NATH'L. B. MEAUX.
+        P. S. The above described fellow, ranaway without any provocation whatever. All reasonable expences will be paid in addition to the $15 and $20. I am not positive as to the number of teeth he has out. Dec. 29. 1829
+    </transcript>
+    <footer>
+        <adType type="Runaway "></adType>
+        <rewardInfo>
+            <amount minAmount="15" maxAmount="150"></amount>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved person" sex="m" foreName="Miller">
+                <characteristics>
+                    <physical>
+                        <phenotype>Straight made, tolerably black colour; wide mouth; thick lips; fat nose, rawboned and a very stout man.</phenotype>
+                        <minAge years="28"></minAge>
+                        <maxAge years="30"></maxAge>
+                        <maxHeight inches="72"></maxHeight>
+                        <build>Straight made, rawboned, and very stout</build>
+                        <clothing>He had on when he went away, an old blue jeans coat, and a new pair of white linsy pantaloons; and took with him a variety of other clothing not recollected.</clothing>
+                        <scars>A noted scar or sore on the back part of his neck, about the size of the palm of a man's hand, and generally wears a black patch over it.</scars>
+                        <teeth>Lost 3 or 4 of his upper fore teeth.</teeth>
+                    </physical>
+                    <countenance>
+                        <behavior>ranaway without any provocation whatever.</behavior>
+                        <other></other>
+                    </countenance>
+                    <otherFeatures>
+                        <literate>a very intelligent fellow.></literate>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="" role="enslaver" sex="m" foreName="NATH'L. B. MEAUX.">
+                <enslaverInfo>
+                </enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="enslaver's house">Anderson county, 5 miles from Lawrenceburg, near the road leading to Harrodsburg.</placeName>
+        </listPlace>
+    </footer>
+    
+</xml>
