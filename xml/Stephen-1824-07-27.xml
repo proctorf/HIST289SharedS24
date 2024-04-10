@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    
+    
+    <header>
+        <citationInfo>
+            <journalTitle>The Scioto Gazette</journalTitle>
+            <publicationDate when="1824-07-27"></publicationDate>
+            <publicationPlace settlement="Amherst" state="Virginia"></publicationPlace>
+            <page>4</page>
+            <url>" https://infoweb.newsbank.com/apps/readex/doc?p=EANX&docref=image/v2%3A1264B86E06B12182%40EANX-139732B915357568%402386757-1396E2D9DEC41558%402-139C4C2754961A35%40Advertisement."</url>
+        </citationInfo>
+        <respDesc>
+            <created resp="BKG" when="2024-04-07"></created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>Thirty Dollars Reward</p>
+        <p>RUNAWAY from the subscriber, living in Amherst county, Va. a Negro man named STEPHEN, about five feet seven inches high, very dark complexion, high forehead, his upper teeth prominent, and has a great impediment in his speech—had on when he went away, grey pantaloons; black vest, his coat of dark coloured twilled woolen, a small black fur hat; narrow rim, moccasins, which lace half up his legs—had also with him in a pack other clothing, to wit: one pair of white pantaloons, one pair of tow cloth do. one yellow vest, one blue cotton round about. He will perhaps change his name to Henry Wilson; having with him a pass given in that name
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="30.00"></amount>
+            <criteria>for taking him up, or securing him in any jail</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="Stephen" role="enslaved" sex="m">
+                <characteristics>
+                <physical>
+                    <phenotype>black</phenotype>
+                    <minHeight inches="67"></minHeight>
+                    <complexion>Very dark</complexion>
+                    <hair></hair>
+                    <forehead>High</forehead>
+                    <teeth>Prominent upper teeth</teeth>
+                </physical>
+                    <clothing>
+                        <item>Grey pantaloons</item>
+                        <item>Black vest</item>
+                        <item>Dark coloured twilled woolen coat</item>
+                        <item>Small black fur hat</item>
+                        <item>Moccasins, which lace half up his legs</item>
+                <countenance>
+                    <speech>Has a great impediment in his speech</speech>
+                </countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="" role="enslaver" sex="m" foreName="Robert" surName="Campbell">                
+                <enslaverInfo></enslaverInfo>
+            </persName>
+        </listPerson>
+    </footer>
+</xml>

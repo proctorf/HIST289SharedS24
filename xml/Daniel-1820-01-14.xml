@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    
+    
+    <header>
+        <citationInfo>
+            <journalTitle>The Scioto Gazette</journalTitle>
+            <publicationDate when="1820-01-14"></publicationDate>
+            <publicationPlace settlement="Chillicothe" state="Ohio"></publicationPlace>
+            <page>4</page>
+            <url>"https://infoweb.newsbank.com/apps/readex/doc?p=EANX&docref=image/v2%3A1264B86E06B12182%40EANX-1277334D9F8434F0%402385814-1277334DC9F7BE18%403-1277334E39A650E8%40Advertisement."</url>
+        </citationInfo>
+        <respDesc>
+            <created resp="BKG" when="2024-04-08"></created>
+        </respDesc>
+    </header>
+    <transcript>
+        <
+        $100 REWARD.
+        RAN away from the Subscriber on the 2d day of September last, living in Kentucky, Woodford County, a Negro man named
+        
+        DANIEL.
+        He is 5 feet 10 or 11 inches high, square built, his weight about 200 pounds, is about 26 years of age, uncommonly black, has large white eyes, down look, remarkably white teeth, manifests a good deal of pride when walking; had on when he went away black pantaloons, an old black silk waistcoat, tow linen shirt, a fur hat about half worn.
+        
+        I will give the above reward for taking up said Runaway and confining him in jail, so that I get him again
+        
+        LABAN SCEARCE.
+        Versailles, Ky. Nov. 4
+        12 8
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="100.00"></amount>
+            <criteria>I will give the above reward for taking up said Runaway and confining him in jail, so that I get him again</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" alias='' role="enslaved" sex="m" foreName="Daniel">
+                <characteristics>
+                <physical>
+                    <phenotype>uncommonly black</phenotype>
+                    <build>square built</build>
+                    <teeth>remarkably white teeth</teeth>
+                    <eyes>large white eyes</eyes>
+                    <minHeight inches="70"></minHeight>
+                    <minAge years="26"></minAge>
+                    <possessions>bay mate</possessions>
+                    <clothing>
+                        <item>Black Platoons</item>
+                        <item>Old Black Silk Waistcoat</item>
+                        <item>tow linen shirts</item>
+                        <item>A fur hat about half worn</item>
+                </physical>
+                <countenance>
+                    <behavior>manifests a good deal of pride when walking</behavior>
+                </countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+        </listPerson>
+        <listPerson>
+            <persName xml:id="" role="enslaver" sex="m" foreName="Laban" surName="Scearce">                
+                <enslaverInfo></enslaverInfo>
+            </persName>
+    </footer>
+</xml>
