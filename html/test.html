@@ -1,0 +1,207 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style>
+                    .bucket {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%; /* Ensures the bucket takes full width */
+                    }
+                    
+                    .bucket-half {
+                    flex: 1 0 50%; /* Start with each taking half the width of the bucket */
+                    box-sizing: border-box;
+                    padding: 10px; /* Provides some internal spacing */
+                    }
+                    
+                    @media (max-width: 800px) {
+                    .bucket-half {
+                    flex-basis: 100%; /* Forces them to stack vertically by taking full width */
+                    }
+                    }
+                    
+                    .image-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: auto; /* Height adjusts to maintain aspect ratio */
+                    border: 1px solid #ccc; /* Optional, just for visibility */
+                    }
+                    
+                    .image-container img {
+                    max-width: 100%;
+                    height: auto; /* Maintain aspect ratio */
+                    }
+                    
+                    .body {
+                    margin: 0; /* Removes default margin */
+                    padding: 0; /* Removes default padding */
+                    display: flex;
+                    justify-content: center; /* Centers content horizontally */
+                    align-items: center; /* Optionally centers content vertically */
+                    min-height: 100vh; /* Ensures at least the height of the viewport */
+                    }
+                    
+                    .container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 960px; /* Maximum width of the container */
+                    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional, adds shadow for better focus */
+                    padding: 20px; /* Padding around content */
+                    box-sizing: border-box;
+                    }
+                    .sub-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 20px; /* Provide some spacing around sub-containers */
+                    border: 1px solid #ccc; /* Optional styling */
+                    }
+                    
+                    .item {
+                    display: flex; /* Horizontal layout for nested columns */
+                    flex-direction: row; /* Aligns child fields side by side */
+                    flex-wrap: wrap; /* Allows children to wrap if necessary */
+                    width: 100%;
+                    }
+                    
+                    .field {
+                    display: flex;
+                    flex-direction: column; /* Stacks label over value */
+                    flex: 1 1 33.3333%; /* Allows three fields per row */
+                    padding: 10px; /* Spacing around each field */
+                    box-sizing: border-box;
+                    }
+                    
+                    .double {
+                    flex: 2 1 66%; /* Double the space for the 'Height and Build' field */
+                    padding: 5px;
+                    }
+                    .triple {
+                    flex: 3 1 66%; /* Double the space for the 'Height and Build' field */
+                    padding: 5px;
+                    }
+                    
+                    .label, .value {
+                    display: block; /* Ensures label and value stack */
+                    width: 100%; /* Forces label and value to fill their container */
+                    }
+                    
+                    .list, .category, .data {
+                    display: flex; /* Establishes a flex list */
+                    flex: 1; /* Allows for dynamic resizing and distribution */
+                    padding: 10px; /* Consistent padding for all elements */
+                    align-items: center; /* Centers items vertically within each list/category/data */
+                    }
+                </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="sub-container">
+            <div class="bucket"><span class="citation"><span class="journal-title">The Western Spy, and Hamilton Gazette</span>, Cincinnati, OH, June 19, 1802</span></div>
+            <div class="bucket">
+               <div class="bucket-half"><span class="image-container"><img height="450" src="https://proctorf.github.io/HIST289Ads/WesternSpyandHamiltonGazette_6_19_1802.png"></span></div>
+               <div class="bucket-half"><span class="text">
+                     
+                     <p>Fifty Dollar Reward</p>
+                     
+                     <p>Eloped from my plantation on Cumberland river, on the
+                        23d inst. a negro man slave,
+                        named</p>
+                     
+                     <p>
+                        
+                        George
+                        
+                        </p>
+                     
+                     <p>Yellow complexion, about 6 feet high, 30 years of age, stout made, and very active.
+                        Talks
+                        sensibly, and flops a little in his walk; had on when he went a way a pair of lea-
+                        ther
+                        overalls, and a hunting shirt filled with black wool _ I have no doubt but he will
+                        pass
+                        for a free man, and perhaps produce a pass, as heretofore a free fellow of the name
+                        Brown, forged him a pass, by the name of George Velvin, and signed Thomas Hutchings,
+                        and
+                        6 residing justices of Davidson court, thereto; he will make for the Western Territory, or Detroit; he has obtained by some means a good idea of the Geography of that
+                        country; if apprehended he is artful and will make his escape, unless well secured
+                        - any
+                        person that will bring him to me, or lodge him in some jail shall receive the above
+                        reward. </p>
+                     
+                     <p>
+                        Andrew Jackson
+                        </p>
+                     
+                     <p>
+                        April 26,1802
+                        </p>
+                     </span></div>
+            </div>
+         </div>
+         <div class="sub-container">
+            <div class="bucket">
+               <div class="bucket-half">Biographical Info 
+                  
+                  
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">First Name:</span><span class="value">George</span></div>
+                        <div class="field"><span class="label">Last Name:</span><span class="value"></span></div>
+                        <div class="field"><span class="label">Alias:</span><span class="value">George Velvin</span></div>
+                     </div>
+                  </div>
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Phenotype:</span><span class="value">Yellow</span></div>
+                        <div class="field"><span class="label">Sex:</span><span class="value">Male</span></div>
+                        <div class="field"><span class="label">Age:</span><span class="value">30</span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bucket-half">Physical Characteristics 
+                  
+                  
+                  
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Height:</span><span class="value">72
+                              inches
+                              </span></div>
+                        <div class="field double"><span class="label">Build:</span><span class="value">stout made, flop in his walk</span></div>
+                        <div></div>
+                     </div>
+                  </div>
+                  <div class="field triple"><span class="label">Scars:</span><span class="value">Not Provided</span></div>
+               </div>
+            </div>
+            <div class="bucket">
+               <div class="bucket-half">Personality 
+                  
+                  
+                  
+                  
+                  <div class="list"><span class="category">Speech:</span><span class="data">talks sensibly</span></div>
+                  <div class="list"><span class="category">Behavior:</span><span class="data">very active, artful</span></div>
+                  <div class="list"><span class="category">Literate?</span><span class="data">Not Provided</span></div>
+                  <div class="list"><span class="category">Will attempt to pass as free?</span><span class="data">Yes</span></div>
+                  <div class="list"><span class="category">Literate?</span><span class="data">Not Provided</span></div>
+               </div>
+               <div class="bucket-half">Other Info
+                  
+                  <div class="list"><span class="category">Speech:</span><span class="data">talks sensibly</span></div>
+                  <div class="list"><span class="category">Behavior:</span><span class="data">very active, artful</span></div>
+                  <div class="list"><span class="category">Literate?</span><span class="data">Not Provided</span></div>
+                  <div class="list"><span class="category">Will attempt to pass as free?</span><span class="data">Yes</span></div>
+                  <div class="list"><span class="category">Literate?</span><span class="data">
+                        and perhaps produce a pass, as heretofore a free fellow of the name
+                        Brown, forged him a pass, by the name of George Velvin, and signed Thomas
+                        Hutchings, and 6 residing justices of Davidson court</span></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
