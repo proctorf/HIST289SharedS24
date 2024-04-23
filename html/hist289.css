@@ -1,0 +1,142 @@
+
+                    /* Establishes box-sizing across all elements to include padding and borders in the width calculation */
+                    .bucket, .bucket-half, .item, .field, .double, .triple, .field-triple, .list, .category, .data {
+                    box-sizing: border-box;
+                    }
+                    
+                    /* Flex container setup for the main container and sub-containers */
+                    .container, .sub-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    width: 100%;
+                    padding: 20px; /* Provides padding around the content */
+                    max-width: 960px; /* Maximum width of the container */
+                    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds shadow for better focus */
+                    }
+                    
+                    
+                    /* Styling for each bucket and bucket-half */
+                    .bucket {
+                    display: flex;
+                    flex-wrap: wrap;  /* Allows items to wrap to the next line */
+                    justify-content: space-between; /* Spreads children across the container width */
+                    width: 100%; /* Ensures the bucket takes full width */
+                    position: relative; /* Needed for absolute positioning of children like .right-span */
+                    min-height: 50px; /* Minimum height to ensure visibility and alignment */
+                    }
+                    
+                    .bucket-half {
+                    flex: 1 0 48%; /* Adjusts to less than half to accommodate borders and margins */
+                    padding: 10px; /* Internal spacing */
+                    border: 1px solid #ccc; /* Adds border around each bucket-half */
+                    margin: 5px; /* Provides a little space around each bucket-half */
+                    box-sizing: border-box; /* Includes padding and border in the width calculation */
+                    }
+                    .right-span {
+                    position: absolute; /* Positions relative to nearest positioned ancestor (.bucket) */
+                    right: 0; /* Aligns the span to the right edge of its parent */
+                    top: 0; /* Aligns to the top, adjust as necessary */
+                    }
+                    /* Responsive behavior for smaller screens */
+                    @media (max-width: 800px) {
+                    .bucket-half {
+                    flex-basis: 100%; /* Forces them to stack vertically by taking full width on smaller screens */
+                    }
+                    }
+                    
+                    /* Styling for image containers within buckets */
+                    .image-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: auto; /* Adjusts height to maintain aspect ratio */
+                    border: 1px solid #ccc; /* Visibility, consistent with other bucket-halves */
+                    }
+                    
+                    .image-container img {
+                    max-width: 100%;
+                    max-height: 500px; /* Limit the height of the image */
+                    height: auto; /* Maintains aspect ratio */
+                    }
+                    
+                    .body, body {
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                    background-color: #FEFEFC; /* Lightened soft cream */
+                    color: #000;                     
+                    }
+                    
+                    /* Flexbox settings for items within nested columns */
+                    .item {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    }
+                    
+                    /* General and specific flexbox settings for fields */
+                    .field, .double, .triple, .field-triple {
+                    display: flex;
+                    padding: 10px;
+                    margin-bottom: 10px; /* Adds space between fields */
+                    }
+                    
+                    .field {
+                    flex-direction: column;
+                    flex: 1 1 33.3333%;
+                    }
+                    
+                    .double {
+                    flex: 2 1 66%; /* Takes up twice the space of a single field */
+                    }
+                    
+                    .triple, .field-triple {
+                    flex: 3 1 100%; /* Takes the full width as needed */
+                    flex-direction: column; /* Assuming you want to stack label over value */
+                    }
+                    
+                    /* Styling for label and value pairs */
+                    .label, .value {
+                    display: block;
+                    width: 100%;
+                    }
+                    
+                    /* Styling for lists within buckets */
+                    .list, .category, .data {
+                    display: flex;
+                    flex: 1;
+                    padding: 10px;
+                    align-items: center;
+                    }
+                    /* Color Styling
+                    
+                    /* CSS for Digital Humanities Project */
+                    body {
+                    background-color: #FEFEFC; /* Lightened Soft Cream */
+                    color: #000; /* Default text color set to black for contrast */
+                    font-family: Arial, sans-serif; /* A common, readable font */
+                    }
+                    
+                    .bucket-title, .half-bucket-title {
+                    background-color: #B7D4D4; /* Darker Dark Slate Gray, corrected to lightened version */
+                    font-weight: bolder; /* Make the title bold */
+                    padding: 5px; /* Add some padding around the text */
+                    display: block; /* Makes the span behave like a block element */
+                    }
+                    
+                    span.label,
+                    span.category {
+                    background-color: #D6DBD2; /* Darker Muted Sage Green, corrected to lightened version */
+                    color: #000; /* Using white text for better readability on dark backgrounds */
+                    padding: 3px; /* Add some padding for visual distinction */
+                    margin-right: 5px; /* Add margin to separate labels/categories if inline */
+                    display: inline-block; /* Ensures labels/categories are clearly separated */
+                    }
+                    
+                    
+                
