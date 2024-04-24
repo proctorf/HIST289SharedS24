@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Humanities Project</title>
+        <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            max-width: 800px;
+            margin: auto; /* Centers the container */
+        }
+        .item {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        img {
+            width: 100%; /* Makes the image responsive */
+            max-width: 100px; /* Maximum size of the image */
+            height: auto;
+            display: block;
+            margin: 0 auto 10px; /* Centers the image and adds space below */
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a div { /* Specifically targets divs inside an anchor */
+            color: blue; /* Makes the text color blue */
+            text-decoration: underline; /* Optionally, add underline to mimic hyperlinks */
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Encoded Advertisements</h1>
+        <div class="container"><!-- Repeat this item for each image/link pair -->
+            
+            <div class="item">
+                <a href="https://proctorf.github.io/HIST289SharedS24/html/test.html">
+                    <img src="https://proctorf.github.io/HIST289SharedS24/images/George_Western_Spy_6_19_1802.png" alt="Thumbnail">
+                    <div>The Western Spy and Hamilton Gazette, June 19, 1802</div>
+                </a>
+            </div>
+            <!-- Add more items as needed -->
+            
+            
+            
+        </div> <!-- THIS IS THE END OF THE FILE-->
+    </body>
+</html>
