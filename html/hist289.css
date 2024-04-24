@@ -1,4 +1,3 @@
-
                     /* Establishes box-sizing across all elements to include padding and borders in the width calculation */
                     .bucket, .bucket-half, .item, .field, .double, .triple, .field-triple, .list, .category, .data {
                     box-sizing: border-box;
@@ -35,8 +34,8 @@
                     }
                     .right-span {
                     position: absolute; /* Positions relative to nearest positioned ancestor (.bucket) */
-                    right: 0; /* Aligns the span to the right edge of its parent */
-                    top: 0; /* Aligns to the top, adjust as necessary */
+                    right: 10px; /* Aligns the span to the right edge of its parent */
+                    top: 10px; /* Aligns to the top, adjust as necessary */
                     }
                     /* Responsive behavior for smaller screens */
                     @media (max-width: 800px) {
@@ -128,6 +127,9 @@
                     padding: 5px; /* Add some padding around the text */
                     display: block; /* Makes the span behave like a block element */
                     }
+                    .bucket-half span.not-bold {
+                    font-weight: normal;  /* Overrides bold for specific spans */
+                    }
                     
                     span.label,
                     span.category {
@@ -137,6 +139,3 @@
                     margin-right: 5px; /* Add margin to separate labels/categories if inline */
                     display: inline-block; /* Ensures labels/categories are clearly separated */
                     }
-                    
-                    
-                
