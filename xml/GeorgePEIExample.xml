@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>The Western Spy, and Hamilton Gazette</journalTitle>
+            <publicationDate when="1802-06-19">June 19, 1802</publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, OH</publicationPlace>
+            <page>6</page>
+            <adUrl>https://proctorf.github.io/HIST289Ads/WesternSpyandHamiltonGazette_6_19_1802.png</adUrl>
+
+        </citationInfo>
+
+        <respDesc>
+            <created resp="ftp" when="2022-10-09">Created by Trey Proctor</created>
+        </respDesc>
+    </header>
+
+
+    <transcript>
+        <p>Fifty Dollar Reward</p>
+        <p>Eloped from my <place ref = "#Davidson, TN" placeType="origin">plantation on Cumberland river</place>, on the
+                <date dateType="departure" when="1802-05-23">23d inst.</date> a negro man slave,
+            named</p>
+        <p>
+            <name xml:id="">
+                <hi rend="allCaps">George</hi>
+            </name>
+        </p>
+        <p>Yellow complexion, about 6 feet high, 30 years of age, stout made, and very active. Talks
+            sensibly, and flops a little in his walk; had on when he went a way a pair of lea- ther
+            overalls, and a hunting shirt filled with black wool _ I have no doubt but he will pass
+            for a free man, and perhaps produce a pass, as heretofore a free fellow of the name
+            Brown, forged him a pass, by the name of George Velvin, and signed Thomas Hutchings, and
+            6 residing justices of Davidson court, thereto; he will make for the <place
+                placeType="destination">Western Territory</place>, or <place placeType="destination"
+                >Detroit</place>; he has obtained by some means a good idea of the Geography of that
+            country; if apprehended he is artful and will make his escape, unless well secured - any
+            person that will bring him to me, or lodge him in some jail shall receive the above
+            reward. </p>
+        <p>
+            <name xml:id="">Andrew Jackson</name>
+        </p>
+        <p>
+            <date dateType="dateWritten" when="1802-04-26">April 26,1802</date>
+        </p>
+    </transcript>
+
+    <footer>
+        <rewardInfo>
+            <amount minAmount="50.00">Fifty dollars </amount>
+            <criteria>bring him to me, or lodge him in some
+                jail</criteria>
+        </rewardInfo>
+
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="George" alias="George Velvin"
+                >George
+                <characteristics>
+                    <physical>
+                        <phenotype>Yellow</phenotype>
+                        <build>stout made, flop in his walk</build>
+                        <minHeight inches="72">6 feet</minHeight>
+                        <minAge years="30">30 years of age</minAge>
+                        <clothing>leather overalls, bunting shirt fille with black wool</clothing>
+                    </physical>
+    
+                    <countenance>
+                        <speech>talks sensibly</speech>
+                        <behavior>very active, artful</behavior>
+                        <other>good idea of the Geography of that country (North Western
+                            Territory)</other>
+                        <passAsFree pass="y">will pass for a free man</passAsFree>
+                    </countenance>
+    
+                    <otherFeatures>
+                        <papersDesc papers="y">
+                            and perhaps produce a pass, as heretofore a free fellow of the name
+                            Brown, forged him a pass, by the name of George Velvin, and signed Thomas
+                            Hutchings, and 6 residing justices of Davidson court</papersDesc>
+                    </otherFeatures>
+                </characteristics>
+           </persName>
+
+
+            <persName xml:id="" role="enslaver" sex="m" foreName="Andrew" surName="Jackson">Andrew
+                Jackson <enslaverInfo>former President</enslaverInfo>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName ref = "Davidson, TN" placeType="origin" settlement="Nashville" county="Davidson" state="Tennessee"
+                country="USA" geo="36.219054907943516, -86.61444664273341">plantation on Cumberland
+                River</placeName>
+
+            <placeName placeType="destination" settlement="Detriot" state="Michigan" country="USA"
+                geo="42.40187087455974, -83.06230124560092">Detriot</placeName>
+            
+            <placeName placeType="destination" geo ="">Western Territories</placeName>
+        </listPlace>
+
+
+    </footer>
+</xml>
