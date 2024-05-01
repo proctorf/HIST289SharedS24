@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="https://proctorf.github.io/HIST289SharedS24/html/hist289.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="sub-container">
+            <div class="bucket">
+               <div class="bucket-half" span="2"><span class="half-bucket-title"><span class="citation"><span class="journal-title">Liberty Hall</span>, Cincinnati, OH, August 23, 1814</span><div><span class="not-bold"><a href="https://proctorf.github.io/HIST289SharedS24/xml/1814-08-23-David.xml" style="unbold">Link to XML</a></span></div></span></div>
+            </div>
+            <div class="bucket">
+               <div class="bucket-half"><span class="image-container"><img height="450" src="https://proctorf.github.io/HIST289SharedS24/images/ad_David.png"></span></div>
+               <div class="bucket-half"><span class="text">
+                     
+                     <p>
+                        20 DOLLARS REWARD.
+                        </p>
+                     
+                     <p>
+                        RANAWAYfrom the subscriber, on
+                        the 9th inst. about five miles below Law-
+                        enceburg, from a boat on the passage
+                        up from Orleans, a negro boy named
+                        DAVID,
+                        about 16 or 17 years old, 5 feet 5 or 6
+                        inches high, and very active; just above
+                        the right breast are two lumps or scars,
+                        supposed to be done with the whip, and
+                        two similar scars on the back of the
+                        neck, and two scars on the left breast,
+                        one very plain, the other not quite so
+                        plain. When he laughs, his eye-teeth
+                        project almost out of his mouth. He has
+                        a large flat nose, and very impudent
+                        look. The hair on his head is very thin,
+                        so that the skin is seen in streaks thro'
+                        the hair. He speaks English, and in-
+                        different French. The above rewars
+                        and reasonable charges will be given to
+                        any person apprehending and delivering
+                        him to the subscriber, or confining him
+                        in any way so that he may be had again.
+                        </p>
+                     
+                     <p>
+                        JOHN MEARS.
+                        Cincinnati,August 23.
+                        </p>
+                     </span></div>
+            </div>
+         </div>
+         <div class="sub-container">
+            <div class="bucket">
+               <div class="bucket-half"><span class="half-bucket-title">Biographical Info</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">First Name:</span><span class="value">David</span></div>
+                        <div class="field"><span class="label">Last Name:</span><span class="value"></span></div>
+                        <div class="field"><span class="label">Alias:</span><span class="value"></span></div>
+                     </div>
+                  </div>
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Phenotype:</span><span class="value"></span></div>
+                        <div class="field"><span class="label">Sex:</span><span class="value">Male</span></div>
+                        <div class="field"><span class="label">Age:</span><span class="value">16</span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bucket-half"><span class="half-bucket-title">Physical Characteristics</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Height:</span><span class="value">65-66
+                              inches
+                              </span></div>
+                        <div class="field double"><span class="label">Build:</span><span class="value"></span></div>
+                        <div></div>
+                     </div>
+                  </div>
+                  <div class="field triple"><span class="label">Scars:</span><span class="value">two scars just above the right breast, two scars on the back of the neck, two scars
+                        on the left breast</span></div>
+               </div>
+            </div>
+            <div class="bucket">
+               <div class="bucket-half"><span class="half-bucket-title">Personality</span><div class="field triple"><span class="label">Speech:</span><span class="value">Not Provided</span></div>
+                  <div class="field triple"><span class="label">Behavior:</span><span class="value">very active</span></div>
+                  <div class="field triple"><span class="label">Literate?</span><span class="value">Not Provided</span></div>
+               </div>
+               <div class="bucket-half"><span class="half-bucket-title">Other Info</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Possessions:</span><span class="value">Not Provided</span></div>
+                     </div>
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Clothing:</span><span class="value">Not Provided</span></div>
+                     </div>
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Skills?</span><span class="value">speaks English, speaks indifferent French</span></div>
+                     </div>
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Had a horse?</span><span class="value">Not Provided</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bucket">
+               <div class="bucket-half"><span class="half-bucket-title">Enslaver Information</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Name</span><span class="value">John
+                              <xsl-text></xsl-text>Mears</span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bucket-half"><span class="half-bucket-title">Geographical Information</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Location Type - origin</span><span class="value">Lawrenceburg, Lawrenceburg
+                              <xsl-text> County, </xsl-text>Kentucky</span></div>
+                     </div>
+                  </div>
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Location Type - Publication Location (Presumed Direction)</span><span class="value">Cincinnati, Ohio</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
