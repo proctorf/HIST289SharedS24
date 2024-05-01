@@ -7,10 +7,10 @@
             <publicationDate when="1802-12-01"></publicationDate>
             <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, Ohio</publicationPlace>
             <page>5</page>
-            <url></url> <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/Billy.JPG</adUrl>
+            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/Billy.JPG</adUrl>
         </citationInfo>
         <respDesc>
-            <created resp="" when="2024-03-27"></created>
+            <created resp="" when="2024-03-27"> Created by Izzi Howard</created>
         </respDesc>
     </header>
     <transcript>
@@ -26,8 +26,8 @@
         <listPerson>
             <persName xml:id="" role="enslaved" sex="m" foreName="Billy"><characteristics>
                 <physical>
-                    <build>rather low stature, well set and strong built</build>
-                    <phenotype>black complexion</phenotype> carlocks plated or twisted 
+                    <build>rather low stature, well set and strong built, carlocks plated or twisted</build>
+                    <phenotype>black complexion</phenotype>  
                     <scars>back will show visible marks of the whip</scars>
                     <minAge years="37"></minAge>
                     <maxAge years="38"></maxAge>
