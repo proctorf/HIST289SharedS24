@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="https://proctorf.github.io/HIST289SharedS24/html/hist289.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="sub-container">
+            <div class="bucket">
+               <div class="bucket-half" span="2"><span class="half-bucket-title"><span class="citation"><span class="journal-title">Cincinnati Commercial Tribune</span>, Cincinnati, OH, September 23, 1861</span><div><span class="not-bold"><a href="https://proctorf.github.io/HIST289SharedS24/xml/1861-09-23-Debby.xml" style="unbold">Link to XML</a></span></div></span></div>
+            </div>
+            <div class="bucket">
+               <div class="bucket-half"><span class="image-container"><img height="450" src="https://proctorf.github.io/HIST289SharedS24/images/ad_Debby.png"></span></div>
+               <div class="bucket-half"><span class="text">
+                     
+                     <p>
+                        $50 Reward.
+                        </p>
+                     
+                     <p>
+                        Ran away from the subscriber on the 20th of July,
+                        negro girl DEBBY, aged fifteen years, medium size,
+                        copper color, and had on when she left a blue plaid
+                        dress. The above reward will be paid for her arrest
+                        and delivery to the subscriber if taken in the City of
+                        Washington, or $25 if taken in the State.
+                        </p>
+                     
+                     <p>
+                        R O. MULLIKEN.
+                        </p>
+                     
+                     <p>
+                        Upper Marlboro, Prince George County, MD.,
+                        August 2, 1861.
+                        </p>
+                     </span></div>
+            </div>
+         </div>
+         <div class="sub-container">
+            <div class="bucket">
+               <div class="bucket-half"><span class="half-bucket-title">Biographical Info</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">First Name:</span><span class="value">Debby</span></div>
+                        <div class="field"><span class="label">Last Name:</span><span class="value"></span></div>
+                        <div class="field"><span class="label">Alias:</span><span class="value"></span></div>
+                     </div>
+                  </div>
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Phenotype:</span><span class="value">copper color</span></div>
+                        <div class="field"><span class="label">Sex:</span><span class="value">Female</span></div>
+                        <div class="field"><span class="label">Age:</span><span class="value">15</span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bucket-half"><span class="half-bucket-title">Physical Characteristics</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Height:</span><span class="value">
+                              inches
+                              </span></div>
+                        <div class="field double"><span class="label">Build:</span><span class="value">medium size</span></div>
+                        <div></div>
+                     </div>
+                  </div>
+                  <div class="field triple"><span class="label">Scars:</span><span class="value">Not Provided</span></div>
+               </div>
+            </div>
+            <div class="bucket">
+               <div class="bucket-half"><span class="half-bucket-title">Personality</span><div class="field triple"><span class="label">Speech:</span><span class="value">Not Provided</span></div>
+                  <div class="field triple"><span class="label">Behavior:</span><span class="value">Not Provided</span></div>
+                  <div class="field triple"><span class="label">Literate?</span><span class="value">Not Provided</span></div>
+               </div>
+               <div class="bucket-half"><span class="half-bucket-title">Other Info</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Possessions:</span><span class="value">Not Provided</span></div>
+                     </div>
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Clothing:</span><span class="value">blue plaid dress</span></div>
+                     </div>
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Skills?</span><span class="value">Not Provided</span></div>
+                     </div>
+                     <div class="item">
+                        <div class="field-triple"><span class="label">Had a horse?</span><span class="value">Not Provided</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bucket">
+               <div class="bucket-half"><span class="half-bucket-title">Enslaver Information</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Name</span><span class="value">
+                              <xsl-text></xsl-text>Mulliken</span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="bucket-half"><span class="half-bucket-title">Geographical Information</span><div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Location Type - origin</span><span class="value">Upper Marlboro, Prince George County, MD., Upper Marlboro, Prince George County
+                              <xsl-text> County, </xsl-text>Maryland</span></div>
+                     </div>
+                  </div>
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Location Type - potential destination</span><span class="value">City of Washington, Washington, Ohio</span></div>
+                     </div>
+                  </div>
+                  <div class="nested-column">
+                     <div class="item">
+                        <div class="field"><span class="label">Location Type - Publication Location (Presumed Direction)</span><span class="value">Cincinnati, Ohio</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
