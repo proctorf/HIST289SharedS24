@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/izzih/Downloads/S24_DH289schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <citationInfo>
+            <journalTitle>The Western Spy, and Hamilton Gazette</journalTitle>
+            <publicationDate when="1800-09-03"></publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, Ohio</publicationPlace>
+            <page>1</page>
+            <url></url>
+            <adUrl>https://github.com/proctorf/HIST289SharedS24/blob/main/images/GeorgeandJess.JPG</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="" when="2024-03-27"></created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>Fifty Dollars Reward</p> 
+        <p>Will be given for apprehending four negroes, viz.</p>
+        <p>A man by the name of George about 27 years of age, of a middle stature, and black complection, his wife is about 25 years old, of a yellow complection; they took with them two children, both boys, one four years old, the other fourteen months, the oldest boy's little finger and the next to it grows together on both hands. I will give the above reward to any person that will deliver them to me, living in Fayette County, on the head waters of Boons-Creek, and will pay all reasonable charges. </p>
+        <p>Likewise</p>
+        <p>Ranaway in the month of August 1796, a negro man, named Jess, he is now (if living) about 30 years of age, he is an active well made fellow, of a brown complexion, about five feet nine or ten inches high, and when standing bends in his knees, of a quick speech and if interrogated is apt to stammer. Any person who will deliver him to me, living on Boons-Creek Fayette County, shall receive one hundred dollars reward.</p>
+        <p>James Parish</p>
+ 
+    </transcript>
+    <footer>
+        <adType type="enslaver"></adType>
+        <rewardInfo>
+            <amount minAmount="50">Fifty dollars</amount>
+            <criteria>for George</criteria>
+        </rewardInfo>
+        <rewardInfo>
+            <amount minAmount="100">One Hundred dollars</amount>
+            <criteria>for Jess</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="George"><characteristics>
+                <physical><build>middle stature</build> <phenotype>black complexion</phenotype>black complexion <minAge years="27"></minAge></physical>
+                <countenance></countenance>
+                <otherFeatures><inAGroup group="y"><with>wife and two children</with></inAGroup></otherFeatures>
+            </characteristics></persName>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Jess"><characteristics>
+                <physical><build>active, well made</build><phenotype>brown complexion</phenotype>bends at the knees when standing <minAge years="30"></minAge><minHeight inches="69">five feet nine</minHeight><maxHeight inches="70">five feet ten</maxHeight></physical>
+                <countenance><speech>of a quick speech and if interrogated is apt to stammer</speech></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            <persName xml:id="" role="enslaver" sex="m" foreName="James" surName="Parish"><enslaverInfo></enslaverInfo></persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" settlement="Boons-Creek" county="Fayette" state="KY"></placeName>
+        </listPlace>
+    </footer>
+</xml>
