@@ -88,11 +88,27 @@ header h1, header h2, header h3 {
     padding-left: 10px;
 }
 
+.bucket {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bucket-half {
+    flex: 1 0 48%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
-    .person-info {
+    .content-wrapper, .person-info, .bucket {
         flex-direction: column;
     }
-    .info-column {
+
+    .info-column, .image-container, .transcription-container, .bucket-half {
         width: 100%;
+        margin-right: 0;
     }
 }
