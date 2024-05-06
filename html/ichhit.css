@@ -1,26 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
     line-height: 1.6;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header, .article, footer {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #025f6d;
+    margin-bottom: 5px;
+}
+
+header h2, header h3 {
+    color: #555;
+}
+
+.article section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #025f6d;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #023e4a;
+}
+
+* Content Layout for Image and Transcription */
+.content-wrapper {
+    display: flex; /* This will lay out children (image and transcription) in a row */
+    align-items: stretch; /* Align items to stretch to fill the container */
+    padding: 20px;
+    gap: 20px; /* Ensures space between the image and transcription */
+}
+
+.image-container, .transcription-container {
+    flex: 1; /* Each takes up half of the available space */
+    padding: 10px;
+    border: 1px solid #ccc; /* Adds border for distinction */
+    display: flex;
+    flex-direction: column; /* Organizes content in a vertical direction */
+}
+
+.image-container {
+    margin-right: 20px; /* Adds some space between the image and the transcription text */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+}
+
+.transcription-container {
+    background: #f9f9f9; /* Light background for readability */
+    padding: 10px;
+    overflow: auto; /* Adds scrollbars if content overflows */
+}
+
+.image-container img {
+    max-width: 100%; /* Limits image width to 100% of its container */
+    max-height: 100%; /* Limits image height to not exceed the container's height */
+    object-fit: contain; /* Makes sure the aspect ratio is preserved and the image fits nicely within the container */
+}
+/* Styling for individual entries and tables in sections */
+.bucket {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background: #e8eff5;
+    border-left: 5px solid #025f6d;
+    margin-bottom: 10px;
+}
+
+.bucket-half {
+    flex: 1 1 48%;
+    padding: 10px;
+    background: white;
+    margin: 5px;
+}
+
+.nested-column {
+    margin-top: 10px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.value {
     color: #333;
+    font-size: 1.05em;
 }
 
-header, footer {
-    background-color: #f4f4f4;
-    padding: 10px 20px;
-    text-align: center;
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack image and transcription vertically on smaller screens */
+    }
 
-h1 {
-    color: #333;
-}
-
-.person {
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 8px;
-}
-
-.ad-text {
-    font-size: 1.2em;
+    .image-container, .transcription-container {
+        flex-basis: 100%; /* Allows each to take the full width of the container on small screens */
+        margin-right: 0; /* Removes margin from image container in vertical stacking */
+    }
 }
