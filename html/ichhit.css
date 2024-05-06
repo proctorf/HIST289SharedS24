@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -18,7 +18,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px; /* Adjust this width to match the total width of your transcription and image */
+    max-width: 1200px;
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -31,28 +31,35 @@ header {
 }
 
 header h1, header h2, header h3 {
-    color: #0277bd; /* Vibrant blue */
+    color: #0277bd;
 }
 
-.publication-details h2, h3 {
-    font-size: 0.9em;
-    color: #555;
-}
-
-.content-wrapper, .footer-container {
+.content-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     margin-top: 20px;
 }
 
-.image-container, .transcription-container, .person-info {
-    flex: 1; /* Ensures equal width */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image-container, .transcription-container {
+    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
 }
 
 .image-container {
-    margin-right: 20px; /* Adjust or remove based on layout needs */
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-container img {
@@ -66,17 +73,23 @@ header h1, header h2, header h3 {
     overflow: auto;
 }
 
-.footer-container {
-    width: 100%; /* This ensures that it spans the full width of its container */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.person-info {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping if more than two columns */
-    justify-content: space-between; /* Adjusts spacing between elements */
-    align-items: stretch; /* Aligns items vertically */
-    border-top: 2px solid #ccc; /* Visual separation from content above */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .info-column {
-    width: 48%; /* Adjust based on desired column width, ensure it sums to less than 100% if including padding/margin */
+    width: 50%;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -84,17 +97,14 @@ header h1, header h2, header h3 {
 .field {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
+    width: 100%; /* Makes sure the field takes full width of the column */
 }
 
 .label, .value {
     display: block;
-}
-
-footer {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 0.85em;
+    width: 50%; /* Assign half the width to each for better use of space */
 }
 
 @media (max-width: 768px) {
@@ -108,11 +118,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    .person-info {
-        flex-direction: column;
-    }
-
-    .info-column {
+    .person-info, .info-column {
         width: 100%;
     }
 }
