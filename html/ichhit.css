@@ -35,12 +35,12 @@ header h1, header h2, header h3 {
 
 .content-wrapper {
     display: flex;
-    justify-content: space-between; /* Ensures space between the image and transcript */
-    align-items: stretch; /* Stretches children to fill the container vertically */
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .image-container, .transcription-container {
-    flex: 1; /* Gives equal width to both containers */
+    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     display: flex;
@@ -48,68 +48,51 @@ header h1, header h2, header h3 {
 }
 
 .image-container {
-    margin-right: 20px; /* Right margin for the image container */
-    align-items: center; /* Centers the image horizontally */
-    justify-content: center; /* Centers the image vertically */
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-container img {
     max-width: 100%;
-    max-height: 500px; /* Restricts the height of the image */
-    object-fit: contain; /* Ensures the image is scaled properly */
+    max-height: 500px;
+    object-fit: contain;
 }
 
 .transcription-container {
-    background: #f9f9f9; /* Light background for the transcription area */
-    overflow: auto; /* Adds scrolling if content overflows */
+    background: #f9f9f9;
+    overflow: auto;
 }
 
-footer {
-    margin-top: 20px;
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .image-container {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-}
-
-/* New styles for person information tables */
 .person-info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
     border: 1px solid #ccc;
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .info-column {
-    flex: 1;
+    width: 50%;
     padding: 10px;
-    margin-right: 20px;
 }
 
-.info-column:last-child {
-    margin-right: 0;
-}
-
-h3 {
+.field {
     margin-bottom: 10px;
-    color: #025f6d;
 }
 
-p {
-    margin-bottom: 5px;
-    font-size: 16px;
-}
-
-strong {
+.label {
     font-weight: bold;
+}
+
+.value {
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .person-info {
+        flex-direction: column;
+    }
+    .info-column {
+        width: 100%;
+    }
 }
