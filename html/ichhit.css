@@ -41,13 +41,6 @@ header h1, header h2, header h3 {
     margin-top: 20px;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-top: 20px;
-}
-
 .image-container, .transcription-container {
     flex: 1;
     padding: 10px;
@@ -73,24 +66,24 @@ header h1, header h2, header h3 {
     overflow: auto;
 }
 
-footer {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 0.85em;
-}
-
-.person-info {
+.footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 1px solid #ccc;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+.person-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
 .info-column {
-    width: 50%;
+    width: 48%;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 .field {
