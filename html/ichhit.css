@@ -43,6 +43,8 @@ header h1, header h2, header h3 {
     flex: 1; /* Gives equal width to both containers */
     padding: 10px;
     border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
 }
 
 .image-container {
@@ -62,38 +64,52 @@ header h1, header h2, header h3 {
     overflow: auto; /* Adds scrolling if content overflows */
 }
 
-.person-container, .location-info {
-    border-top: 2px solid #025f6d;
-    padding: 10px;
-}
-
-.details-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-}
-
-.details-bio, .details-physical, .details-personality {
-    flex: 1;
-    margin: 5px;
-}
-
-.label {
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-.value {
-    color: #333;
+footer {
+    margin-top: 20px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .content-wrapper {
         flex-direction: column;
+        align-items: center;
     }
 
     .image-container {
         margin-right: 0;
         margin-bottom: 20px;
     }
+}
+
+/* New styles for person information tables */
+.person-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.info-column {
+    flex: 1;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.info-column:last-child {
+    margin-right: 0;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #025f6d;
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+strong {
+    font-weight: bold;
 }
