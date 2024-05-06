@@ -51,27 +51,31 @@ h2 {
 
 /* Content Layout for Image and Transcription */
 .content-wrapper {
-    display: flex;
-    justify-content: space-between; /* Space between image and text */
-    align-items: flex-start; /* Align items at the top */
+    display: flex; /* This will lay out children (image and transcription) in a row */
+    justify-content: space-between; /* This will place space between the image and transcription */
+    align-items: flex-start; /* Aligns items at the top of their container */
     padding: 20px;
 }
 
 .image-container, .transcription-container {
-    flex: 1;
+    flex: 1; /* Each takes up half of the container */
     padding: 10px;
+}
+
+.image-container {
+    margin-right: 20px; /* Adds some space between the image and the transcription text */
+}
+
+.transcription-container {
+    flex-grow: 2; /* Allows the transcription container to take more space if needed */
+    background: #f9f9f9; /* Light background for readability */
     border: 1px solid #ccc; /* Adds border for distinction */
     margin: 5px;
 }
 
 .image-container img {
-    width: 100%; /* Full width of the container */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.transcription-container {
-    padding: 10px;
-    background: #f9f9f9; /* Light background for readability */
+    max-width: 100%; /* Ensures the image is responsive and fits within its container */
+    height: auto; /* Maintains aspect ratio */
 }
 
 /* Styling for individual entries and tables in sections */
@@ -116,7 +120,7 @@ h2 {
     .content-wrapper {
         flex-direction: column; /* Stack them vertically on smaller screens */
     }
-    
+
     .image-container, .transcription-container {
         flex-basis: 100%; /* Each takes full width on small screens */
     }
