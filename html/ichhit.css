@@ -49,36 +49,39 @@ h2 {
     color: #023e4a;
 }
 
-/* Content Layout for Image and Transcription */
+* Content Layout for Image and Transcription */
 .content-wrapper {
     display: flex; /* This will lay out children (image and transcription) in a row */
-    justify-content: space-between; /* This will place space between the image and transcription */
-    align-items: flex-start; /* Aligns items at the top of their container */
+    align-items: stretch; /* Align items to stretch to fill the container */
     padding: 20px;
+    gap: 20px; /* Ensures space between the image and transcription */
 }
 
 .image-container, .transcription-container {
-    flex: 1 1 50%; /* Each takes up exactly half of the container */
+    flex: 1; /* Each takes up half of the available space */
     padding: 10px;
     border: 1px solid #ccc; /* Adds border for distinction */
-    margin: 5px;
-    box-sizing: border-box; /* Includes padding and borders in the width calculation */
+    display: flex;
+    flex-direction: column; /* Organizes content in a vertical direction */
 }
 
 .image-container {
     margin-right: 20px; /* Adds some space between the image and the transcription text */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
 }
 
 .transcription-container {
     background: #f9f9f9; /* Light background for readability */
+    padding: 10px;
+    overflow: auto; /* Adds scrollbars if content overflows */
 }
 
 .image-container img {
-    width: 100%; /* Ensures the image is responsive and fits within its container */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Ensures that the image does not exceed its container */
+    max-width: 100%; /* Limits image width to 100% of its container */
+    max-height: 100%; /* Limits image height to not exceed the container's height */
+    object-fit: contain; /* Makes sure the aspect ratio is preserved and the image fits nicely within the container */
 }
-
 /* Styling for individual entries and tables in sections */
 .bucket {
     display: flex;
@@ -119,10 +122,11 @@ h2 {
 /* Responsive Design */
 @media (max-width: 768px) {
     .content-wrapper {
-        flex-direction: column; /* Stack them vertically on smaller screens */
+        flex-direction: column; /* Stack image and transcription vertically on smaller screens */
     }
 
     .image-container, .transcription-container {
-        flex-basis: 100%; /* Each takes full width on small screens */
+        flex-basis: 100%; /* Allows each to take the full width of the container on small screens */
+        margin-right: 0; /* Removes margin from image container in vertical stacking */
     }
 }
