@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* A modern, clean font */
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -19,7 +19,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 20px;
+    margin: 20px auto;
     background: white;
     padding: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
@@ -31,12 +31,7 @@ header {
 }
 
 header h1, header h2, header h3 {
-    color: #0277bd; /* A vibrant blue */
-}
-
-.publication-details h2, h3 {
-    font-size: 0.9em;
-    color: #555;
+    color: #0277bd;
 }
 
 .content-wrapper {
@@ -80,13 +75,15 @@ footer {
 .person-info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
     border: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 
 .info-column {
     width: 50%;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .field {
