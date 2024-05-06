@@ -45,7 +45,8 @@ header h1, header h2, header h3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+    margin-top: 20px;
+    width: 100%; /* Full width of the content-wrapper for symmetry */
 }
 
 .image-container, .transcription-container {
@@ -85,11 +86,11 @@ footer {
     flex-wrap: wrap;
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    width: 100%;
+    width: 100%; /* Each info section fills the width */
 }
 
 .info-column {
-    width: 50%;
+    flex: 1 1 50%; /* Flex-grow and flex-basis modified */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -99,12 +100,13 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    width: 100%; /* Makes sure the field takes full width of the column */
+    width: 100%; /* Ensures the field uses all available space */
 }
 
 .label, .value {
     display: block;
-    width: 50%; /* Assign half the width to each for better use of space */
+    flex: 1; /* Each takes equal space */
+    padding: 0 5px; /* Slight padding for separation */
 }
 
 @media (max-width: 768px) {
@@ -118,7 +120,11 @@ footer {
         margin-bottom: 20px;
     }
 
-    .person-info, .info-column {
-        width: 100%;
+    .person-info {
+        flex-direction: column;
+    }
+
+    .info-column {
+        width: 100%; /* Full width in mobile view */
     }
 }
