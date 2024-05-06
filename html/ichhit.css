@@ -49,59 +49,38 @@ h2 {
     color: #023e4a;
 }
 
-* Content Layout for Image and Transcription */
+/* Content Layout for Image and Transcription */
 .content-wrapper {
-    display: flex; /* This will lay out children (image and transcription) in a row */
-    align-items: stretch; /* Align items to stretch to fill the container */
-    padding: 20px;
-    gap: 20px; /* Ensures space between the image and transcription */
+    display: flex; /* Arrange image and transcription side by side */
+    justify-content: space-between; /* Ensure space between both containers */
+    align-items: stretch; /* Ensure both are stretched to fill the container */
+    gap: 20px; /* Adds spacing between containers */
 }
 
 .image-container, .transcription-container {
-    flex: 1; /* Each takes up half of the available space */
-    padding: 10px;
-    border: 1px solid #ccc; /* Adds border for distinction */
+    flex: 1; /* Each container takes up the same amount of space */
+    border: 1px solid #ccc; /* Add border for distinction */
     display: flex;
-    flex-direction: column; /* Organizes content in a vertical direction */
+    flex-direction: column; /* Stack internal elements vertically */
+    padding: 10px;
+    min-height: 400px; /* Set a minimum height */
+    max-height: 500px; /* Set a maximum height */
+    overflow: auto; /* Add scrollbars if content overflows */
 }
 
 .image-container {
-    margin-right: 20px; /* Adds some space between the image and the transcription text */
-    align-items: center; /* Center align items horizontally */
-    justify-content: center; /* Center align items vertically */
+    align-items: center; /* Center align horizontally */
+    justify-content: center; /* Center align vertically */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure image doesn't overflow horizontally */
+    max-height: 100%; /* Ensure image doesn't overflow vertically */
+    object-fit: contain; /* Maintain aspect ratio */
 }
 
 .transcription-container {
     background: #f9f9f9; /* Light background for readability */
-    padding: 10px;
-    overflow: auto; /* Adds scrollbars if content overflows */
-}
-
-.image-container img {
-    max-width: 100%; /* Limits image width to 100% of its container */
-    max-height: 100%; /* Limits image height to not exceed the container's height */
-    object-fit: contain; /* Makes sure the aspect ratio is preserved and the image fits nicely within the container */
-}
-/* Styling for individual entries and tables in sections */
-.bucket {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-    background: #e8eff5;
-    border-left: 5px solid #025f6d;
-    margin-bottom: 10px;
-}
-
-.bucket-half {
-    flex: 1 1 48%;
-    padding: 10px;
-    background: white;
-    margin: 5px;
-}
-
-.nested-column {
-    margin-top: 10px;
 }
 
 .field {
@@ -126,7 +105,7 @@ h2 {
     }
 
     .image-container, .transcription-container {
-        flex-basis: 100%; /* Allows each to take the full width of the container on small screens */
+        flex-basis: 100%; /* Each takes full width on small screens */
         margin-right: 0; /* Removes margin from image container in vertical stacking */
     }
 }
