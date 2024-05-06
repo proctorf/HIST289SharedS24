@@ -1,4 +1,4 @@
-/* Basic styling */
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -18,8 +18,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 960px; /* Adjusted to align with the sub-container */
-    margin: 20px auto;
+    max-width: 1200px;
+    margin: 20px;
     background: white;
     padding: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
@@ -39,16 +39,25 @@ header h1, header h2, header h3 {
     color: #555;
 }
 
-.content-wrapper, .sub-container {
+.content-wrapper {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: stretch;
     margin-top: 20px;
 }
 
-.image-container, .transcription-container, .bucket {
+.image-container, .transcription-container {
+    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-container img {
@@ -62,42 +71,48 @@ header h1, header h2, header h3 {
     overflow: auto;
 }
 
-.bucket {
-    display: flex;
-    justify-content: space-between;
-    background: #f9f9f9; /* Uniform background for all sections */
-    margin-bottom: 20px;
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.85em;
 }
 
-.bucket-half {
-    flex: 1;
-    padding: 10px;
-    margin: 5px;
+.sub-container {
     display: flex;
     flex-direction: column;
 }
 
-.field {
-    display: flex;
-    justify-content: space-between;
+.profile {
+    background: #e8e8e8;
+    border-radius: 8px;
+    padding: 10px;
     margin-bottom: 10px;
 }
 
-.label, .value {
-    display: block;
-    min-width: 40%; /* Ensures that the labels and values use more horizontal space */
-    padding: 2px;
+.profile-section {
+    background: #d0e0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
-/* Responsive adjustments */
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field {
+    flex: 50%;
+    padding: 5px;
+}
+
 @media (max-width: 768px) {
-    .bucket {
+    .content-wrapper, .sub-container {
         flex-direction: column;
     }
-}
 
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.85em;
+    .image-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
