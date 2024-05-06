@@ -18,11 +18,11 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    margin: 20px;
+    max-width: 960px; /* Adjusted for better alignment */
+    margin: 20px auto;
     background: white;
     padding: 20px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Softer shadow for better aesthetics */
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 }
 
 header h1, header h2, header h3 {
-    color: #0277bd; /* A vibrant blue */
+    color: #0277bd; /* Maintained vibrant blue for headers */
 }
 
 .publication-details h2, h3 {
@@ -50,134 +50,58 @@ header h1, header h2, header h3 {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
-}
-
-.image-container {
-    margin-right: 20px;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 20px; /* Ensures spacing between sections */
 }
 
 .image-container img {
-    max-width: 100%;
-    max-height: 500px;
-    object-fit: contain;
+    width: 100%; /* Ensures image fills container */
+    height: auto;
 }
 
 .transcription-container {
     background: #f9f9f9;
-    overflow: auto;
 }
 
-footer {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 0.85em;
-}
-
-/* Flex container setup for the main container and sub-containers */
 .sub-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    padding: 20px; /* Provides padding around the content */
-    max-width: 960px; /* Maximum width of the container */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds shadow for better focus */
+    justify-content: space-between; /* Ensures even distribution */
 }
 
-/* Styling for each bucket and bucket-half */
-.bucket, .bucket-half {
+.bucket {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    justify-content: space-between; /* Spreads children across the container width */
-    width: 100%; /* Ensures the bucket takes full width */
-    position: relative; /* Needed for absolute positioning of children like .right-span */
-    min-height: 50px; /* Minimum height to ensure visibility and alignment */
+    justify-content: space-between;
+    background: #E0E0E0; /* Light grey background for separation */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow for depth */
 }
 
 .bucket-half {
-    flex: 1 0 48%; /* Adjusts to less than half to accommodate borders and margins */
-    padding: 10px; /* Internal spacing */
-    border: 1px solid #ccc; /* Adds border around each bucket-half */
-    margin: 5px; /* Provides a little space around each bucket-half */
-}
-
-/* Responsive behavior for smaller screens */
-@media (max-width: 768px) {
-    .content-wrapper, .sub-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .bucket-half {
-        flex-basis: 100%; /* Forces them to stack vertically by taking full width on smaller screens */
-    }
-
-    .image-container {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-}
-
-/* Styling for nested columns within buckets */
-.nested-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.item {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.field, .double, .triple, .field-triple {
-    display: flex;
+    flex: 1;
     padding: 10px;
-    margin-bottom: 10px; /* Adds space between fields */
+    margin: 5px;
+    background: white; /* White background for content areas */
 }
 
 .field {
-    flex-direction: column;
-    flex: 1 1 33.3333%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
 
-.double {
-    flex: 2 1 66%; /* Takes up twice the space of a single field */
+.label {
+    font-weight: bold;
+    color: #333; /* Darker text for better readability */
 }
 
-.triple, .field-triple {
-    flex: 3 1 100%; /* Takes the full width as needed */
-    flex-direction: column; /* Assuming you want to stack label over value */
+.value {
+    flex-grow: 1; /* Allows value to take up remaining space */
+    text-align: right; /* Aligns text to the right for consistency */
 }
 
-/* Styling for label and value pairs */
-.label, .value {
-    display: block;
-    width: 100%;
-}
-
-/* Styling adjustments to specific labels and values */
-.bucket-half span.not-bold {
-    font-weight: normal; /* Overrides bold for specific spans */
-}
-
-span.label,
-span.category {
-    background-color: #D6DBD2; /* Lightened version of Muted Sage Green */
-    color: #000; /* Using black text for better readability */
-    padding: 3px; /* Add some padding for visual distinction */
-    margin-right: 5px; /* Add margin to separate labels/categories if inline */
-    display: inline-block; /* Ensures labels/categories are clearly separated */
-}
-
-.bucket-title, .half-bucket-title {
-    background-color: #B7D4D4; /* Lightened version of Dark Slate Gray */
-    font-weight: bolder; /* Make the title bold */
-    padding: 5px; /* Add some padding around the text */
-    display: block; /* Makes the span behave like a block element */
+@media (max-width: 768px) {
+    .content-wrapper, .sub-container {
+        flex-direction: column;
+    }
 }
