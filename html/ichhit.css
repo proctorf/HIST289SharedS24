@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif; /* A modern, clean font */
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -22,25 +22,32 @@ body {
     margin: 20px;
     background: white;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
 
 header {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 header h1, header h2, header h3 {
-    color: #025f6d;
+    color: #0277bd; /* A vibrant blue */
+}
+
+.publication-details h2, h3 {
+    font-size: 0.9em;
+    color: #555;
 }
 
 .content-wrapper {
     display: flex;
-    justify-content: space-between; /* Ensures space between the image and transcript */
-    align-items: stretch; /* Stretches children to fill the container vertically */
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 20px;
 }
 
 .image-container, .transcription-container {
-    flex: 1; /* Gives equal width to both containers */
+    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     display: flex;
@@ -48,25 +55,26 @@ header h1, header h2, header h3 {
 }
 
 .image-container {
-    margin-right: 20px; /* Right margin for the image container */
-    align-items: center; /* Centers the image horizontally */
-    justify-content: center; /* Centers the image vertically */
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-container img {
     max-width: 100%;
-    max-height: 500px; /* Restricts the height of the image */
-    object-fit: contain; /* Ensures the image is scaled properly */
+    max-height: 500px;
+    object-fit: contain;
 }
 
 .transcription-container {
-    background: #f9f9f9; /* Light background for the transcription area */
-    overflow: auto; /* Adds scrolling if content overflows */
+    background: #f9f9f9;
+    overflow: auto;
 }
 
 footer {
     margin-top: 20px;
     text-align: center;
+    font-size: 0.85em;
 }
 
 @media (max-width: 768px) {
