@@ -9,7 +9,7 @@
             <publicationDate when="1819-03-12">March 12, 1819</publicationDate>
             <publicationPlace settlement="Chillicothe" state="Ohio">Chillicothe, Ohio</publicationPlace>
             <page>4</page>
-            <url>https://github.com/proctorf/HIST289SharedS24/blob/main/images/XML_ad_Sam.png?raw=true</url>
+            <adUrl>https://proctorf.github.io/HIST289SharedS24/images/XML_ad_Sam.png</adUrl>
         </citationInfo>
         <respDesc>
             <created resp="#ij" when="2024-03-07">Created by Ichhit Joshi</created>
