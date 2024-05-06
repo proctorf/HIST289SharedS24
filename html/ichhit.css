@@ -41,6 +41,13 @@ header h1, header h2, header h3 {
     margin-top: 20px;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
 .image-container, .transcription-container {
     flex: 1;
     padding: 10px;
