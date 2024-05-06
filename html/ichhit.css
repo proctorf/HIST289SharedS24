@@ -77,6 +77,28 @@ footer {
     font-size: 0.85em;
 }
 
+.person-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.info-column {
+    width: 50%;
+    padding: 10px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label, .value {
+    display: block;
+}
+
 @media (max-width: 768px) {
     .content-wrapper {
         flex-direction: column;
@@ -86,5 +108,13 @@ footer {
     .image-container {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .person-info {
+        flex-direction: column;
+    }
+
+    .info-column {
+        width: 100%;
     }
 }
