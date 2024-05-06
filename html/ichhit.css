@@ -58,8 +58,11 @@ h2 {
 }
 
 .image-container, .transcription-container {
-    flex: 1; /* Each takes up half of the container */
+    flex: 1 1 50%; /* Each takes up exactly half of the container */
     padding: 10px;
+    border: 1px solid #ccc; /* Adds border for distinction */
+    margin: 5px;
+    box-sizing: border-box; /* Includes padding and borders in the width calculation */
 }
 
 .image-container {
@@ -67,15 +70,13 @@ h2 {
 }
 
 .transcription-container {
-    flex-grow: 2; /* Allows the transcription container to take more space if needed */
     background: #f9f9f9; /* Light background for readability */
-    border: 1px solid #ccc; /* Adds border for distinction */
-    margin: 5px;
 }
 
 .image-container img {
-    max-width: 100%; /* Ensures the image is responsive and fits within its container */
+    width: 100%; /* Ensures the image is responsive and fits within its container */
     height: auto; /* Maintains aspect ratio */
+    display: block; /* Ensures that the image does not exceed its container */
 }
 
 /* Styling for individual entries and tables in sections */
