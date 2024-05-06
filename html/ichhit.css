@@ -77,47 +77,107 @@ footer {
     font-size: 0.85em;
 }
 
-/* Additional styles for detailed information section */
-.detailed-info {
+/* Flex container setup for the main container and sub-containers */
+.sub-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px;
+    width: 100%;
+    padding: 20px; /* Provides padding around the content */
+    max-width: 960px; /* Maximum width of the container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds shadow for better focus */
 }
 
-.info-block {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-right: 20px;
+/* Styling for each bucket and bucket-half */
+.bucket, .bucket-half {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Spreads children across the container width */
+    width: 100%; /* Ensures the bucket takes full width */
+    position: relative; /* Needed for absolute positioning of children like .right-span */
+    min-height: 50px; /* Minimum height to ensure visibility and alignment */
 }
 
-.info-category {
-    background: #f9f9f9;
-    padding: 10px;
-    margin-bottom: 10px;
+.bucket-half {
+    flex: 1 0 48%; /* Adjusts to less than half to accommodate borders and margins */
+    padding: 10px; /* Internal spacing */
+    border: 1px solid #ccc; /* Adds border around each bucket-half */
+    margin: 5px; /* Provides a little space around each bucket-half */
 }
 
-.info-category h3 {
-    color: #0277bd;
-}
-
-/* Last child margin correction */
-.info-block:last-child {
-    margin-right: 0;
-}
-
+/* Responsive behavior for smaller screens */
 @media (max-width: 768px) {
-    .detailed-info {
+    .content-wrapper, .sub-container {
         flex-direction: column;
+        align-items: center;
     }
 
-    .info-block {
-        margin-right: 0;
-        margin-bottom: 20px;
+    .bucket-half {
+        flex-basis: 100%; /* Forces them to stack vertically by taking full width on smaller screens */
     }
 
     .image-container {
         margin-right: 0;
         margin-bottom: 20px;
     }
+}
+
+/* Styling for nested columns within buckets */
+.nested-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.field, .double, .triple, .field-triple {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px; /* Adds space between fields */
+}
+
+.field {
+    flex-direction: column;
+    flex: 1 1 33.3333%;
+}
+
+.double {
+    flex: 2 1 66%; /* Takes up twice the space of a single field */
+}
+
+.triple, .field-triple {
+    flex: 3 1 100%; /* Takes the full width as needed */
+    flex-direction: column; /* Assuming you want to stack label over value */
+}
+
+/* Styling for label and value pairs */
+.label, .value {
+    display: block;
+    width: 100%;
+}
+
+/* Styling adjustments to specific labels and values */
+.bucket-half span.not-bold {
+    font-weight: normal; /* Overrides bold for specific spans */
+}
+
+span.label,
+span.category {
+    background-color: #D6DBD2; /* Lightened version of Muted Sage Green */
+    color: #000; /* Using black text for better readability */
+    padding: 3px; /* Add some padding for visual distinction */
+    margin-right: 5px; /* Add margin to separate labels/categories if inline */
+    display: inline-block; /* Ensures labels/categories are clearly separated */
+}
+
+.bucket-title, .half-bucket-title {
+    background-color: #B7D4D4; /* Lightened version of Dark Slate Gray */
+    font-weight: bolder; /* Make the title bold */
+    padding: 5px; /* Add some padding around the text */
+    display: block; /* Makes the span behave like a block element */
 }
