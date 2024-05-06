@@ -1,4 +1,4 @@
-/* Basic Reset */
+/* Basic styling */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* A modern, clean font */
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -18,8 +18,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    margin: 20px;
+    max-width: 960px; /* Adjusted to align with the sub-container */
+    margin: 20px auto;
     background: white;
     padding: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
@@ -31,7 +31,7 @@ header {
 }
 
 header h1, header h2, header h3 {
-    color: #0277bd; /* A vibrant blue */
+    color: #0277bd;
 }
 
 .publication-details h2, h3 {
@@ -39,25 +39,16 @@ header h1, header h2, header h3 {
     color: #555;
 }
 
-.content-wrapper {
+.content-wrapper, .sub-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: stretch;
     margin-top: 20px;
 }
 
-.image-container, .transcription-container {
-    flex: 1;
+.image-container, .transcription-container, .bucket {
     padding: 10px;
     border: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
-}
-
-.image-container {
-    margin-right: 20px;
-    align-items: center;
-    justify-content: center;
 }
 
 .image-container img {
@@ -71,113 +62,42 @@ header h1, header h2, header h3 {
     overflow: auto;
 }
 
-footer {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 0.85em;
-}
-
-/* Flex container setup for the main container and sub-containers */
-.sub-container {
+.bucket {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
-    padding: 20px; /* Provides padding around the content */
-    max-width: 960px; /* Maximum width of the container */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds shadow for better focus */
-}
-
-/* Styling for each bucket and bucket-half */
-.bucket, .bucket-half {
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    justify-content: space-between; /* Spreads children across the container width */
-    width: 100%; /* Ensures the bucket takes full width */
-    position: relative; /* Needed for absolute positioning of children like .right-span */
-    min-height: 50px; /* Minimum height to ensure visibility and alignment */
+    background: #f9f9f9; /* Uniform background for all sections */
+    margin-bottom: 20px;
 }
 
 .bucket-half {
-    flex: 1 0 48%; /* Adjusts to less than half to accommodate borders and margins */
-    padding: 10px; /* Internal spacing */
-    border: 1px solid #ccc; /* Adds border around each bucket-half */
-    margin: 5px; /* Provides a little space around each bucket-half */
-}
-
-/* Responsive behavior for smaller screens */
-@media (max-width: 768px) {
-    .content-wrapper, .sub-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .bucket-half {
-        flex-basis: 100%; /* Forces them to stack vertically by taking full width on smaller screens */
-    }
-
-    .image-container {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-}
-
-/* Styling for nested columns within buckets */
-.nested-column {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
     display: flex;
     flex-direction: column;
-}
-
-.item {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.field, .double, .triple, .field-triple {
-    display: flex;
-    padding: 10px;
-    margin-bottom: 10px; /* Adds space between fields */
 }
 
 .field {
-    flex-direction: column;
-    flex: 1 1 33.3333%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
-.double {
-    flex: 2 1 66%; /* Takes up twice the space of a single field */
-}
-
-.triple, .field-triple {
-    flex: 3 1 100%; /* Takes the full width as needed */
-    flex-direction: column; /* Assuming you want to stack label over value */
-}
-
-/* Styling for label and value pairs */
 .label, .value {
     display: block;
-    width: 100%;
+    min-width: 40%; /* Ensures that the labels and values use more horizontal space */
+    padding: 2px;
 }
 
-/* Styling adjustments to specific labels and values */
-.bucket-half span.not-bold {
-    font-weight: normal; /* Overrides bold for specific spans */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bucket {
+        flex-direction: column;
+    }
 }
 
-span.label,
-span.category {
-    background-color: #D6DBD2; /* Lightened version of Muted Sage Green */
-    color: #000; /* Using black text for better readability */
-    padding: 3px; /* Add some padding for visual distinction */
-    margin-right: 5px; /* Add margin to separate labels/categories if inline */
-    display: inline-block; /* Ensures labels/categories are clearly separated */
-}
-
-.bucket-title, .half-bucket-title {
-    background-color: #B7D4D4; /* Lightened version of Dark Slate Gray */
-    font-weight: bolder; /* Make the title bold */
-    padding: 5px; /* Add some padding around the text */
-    display: block; /* Makes the span behave like a block element */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85em;
 }
