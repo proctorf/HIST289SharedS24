@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -18,7 +18,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200px; /* Adjust this width to match the total width of your transcription and image */
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -31,28 +31,28 @@ header {
 }
 
 header h1, header h2, header h3 {
-    color: #0277bd;
+    color: #0277bd; /* Vibrant blue */
 }
 
-.content-wrapper, .footer-container  {
+.publication-details h2, h3 {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.content-wrapper, .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     margin-top: 20px;
 }
 
 .image-container, .transcription-container, .person-info {
-    flex: 1;
+    flex: 1; /* Ensures equal width */
     padding: 10px;
     border: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
 }
 
 .image-container {
-    margin-right: 20px;
-    align-items: center;
-    justify-content: center;
+    margin-right: 20px; /* Adjust or remove based on layout needs */
 }
 
 .image-container img {
@@ -67,24 +67,16 @@ header h1, header h2, header h3 {
 }
 
 .footer-container {
-    width: 100%;
+    width: 100%; /* This ensures that it spans the full width of its container */
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-top: 2px solid #ccc;
-    margin-top: 20px;
-    align-items: stretch;
-}
-
-.person-info {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allows wrapping if more than two columns */
+    justify-content: space-between; /* Adjusts spacing between elements */
+    align-items: stretch; /* Aligns items vertically */
+    border-top: 2px solid #ccc; /* Visual separation from content above */
 }
 
 .info-column {
-    width: 48%;
+    width: 48%; /* Adjust based on desired column width, ensure it sums to less than 100% if including padding/margin */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -99,8 +91,14 @@ header h1, header h2, header h3 {
     display: block;
 }
 
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
 @media (max-width: 768px) {
-    .content-wrapper, .footer-container{
+    .content-wrapper, .footer-container {
         flex-direction: column;
         align-items: center;
     }
