@@ -10,102 +10,73 @@ body {
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 20px;
     background: white;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-header, .article, footer {
+header {
     margin-bottom: 20px;
 }
 
-header h1 {
+header h1, header h2, header h3 {
     color: #025f6d;
-    margin-bottom: 5px;
 }
 
-header h2, header h3 {
-    color: #555;
-}
-
-.article section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    border-bottom: 2px solid #025f6d;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    color: #023e4a;
-}
-
-/* Content Layout for Image and Transcription */
 .content-wrapper {
-    display: flex; /* Arrange image and transcription side by side */
-    justify-content: space-between; /* Ensure space between both containers */
-    align-items: stretch; /* Ensure both are stretched to fill the container */
-    gap: 20px; /* Adds spacing between containers */
+    display: flex;
+    justify-content: space-between; /* Ensures space between the image and transcript */
+    align-items: stretch; /* Stretches children to fill the container vertically */
 }
 
 .image-container, .transcription-container {
-    flex: 1; /* Each container takes up the same amount of space */
-    border: 1px solid #ccc; /* Add border for distinction */
-    display: flex;
-    flex-direction: column; /* Stack internal elements vertically */
+    flex: 1; /* Gives equal width to both containers */
     padding: 10px;
-    min-height: 400px; /* Set a minimum height */
-    max-height: 500px; /* Set a maximum height */
-    overflow: auto; /* Add scrollbars if content overflows */
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
 }
 
 .image-container {
-    align-items: center; /* Center align horizontally */
-    justify-content: center; /* Center align vertically */
+    margin-right: 20px; /* Right margin for the image container */
+    align-items: center; /* Centers the image horizontally */
+    justify-content: center; /* Centers the image vertically */
 }
 
 .image-container img {
-    max-width: 100%; /* Ensure image doesn't overflow horizontally */
-    max-height: 100%; /* Ensure image doesn't overflow vertically */
-    object-fit: contain; /* Maintain aspect ratio */
+    max-width: 100%;
+    max-height: 500px; /* Restricts the height of the image */
+    object-fit: contain; /* Ensures the image is scaled properly */
 }
 
 .transcription-container {
-    background: #f9f9f9; /* Light background for readability */
+    background: #f9f9f9; /* Light background for the transcription area */
+    overflow: auto; /* Adds scrolling if content overflows */
 }
 
-.field {
-    margin-bottom: 10px;
+footer {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.value {
-    color: #333;
-    font-size: 1.05em;
-}
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .content-wrapper {
-        flex-direction: column; /* Stack image and transcription vertically on smaller screens */
+        flex-direction: column;
+        align-items: center;
     }
 
-    .image-container, .transcription-container {
-        flex-basis: 100%; /* Each takes full width on small screens */
-        margin-right: 0; /* Removes margin from image container in vertical stacking */
+    .image-container {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
