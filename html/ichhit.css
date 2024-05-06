@@ -49,6 +49,32 @@ h2 {
     color: #023e4a;
 }
 
+/* Content Layout for Image and Transcription */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; /* Space between image and text */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+}
+
+.image-container, .transcription-container {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc; /* Adds border for distinction */
+    margin: 5px;
+}
+
+.image-container img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.transcription-container {
+    padding: 10px;
+    background: #f9f9f9; /* Light background for readability */
+}
+
+/* Styling for individual entries and tables in sections */
 .bucket {
     display: flex;
     flex-wrap: wrap;
@@ -64,11 +90,6 @@ h2 {
     padding: 10px;
     background: white;
     margin: 5px;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
 }
 
 .nested-column {
@@ -92,7 +113,11 @@ h2 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .bucket, .bucket-half {
-        flex-basis: 100%;
+    .content-wrapper {
+        flex-direction: column; /* Stack them vertically on smaller screens */
+    }
+    
+    .image-container, .transcription-container {
+        flex-basis: 100%; /* Each takes full width on small screens */
     }
 }
