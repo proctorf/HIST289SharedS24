@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* A modern, clean font */
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -19,7 +19,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 20px;
     background: white;
     padding: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
@@ -31,7 +31,12 @@ header {
 }
 
 header h1, header h2, header h3 {
-    color: #0277bd;
+    color: #0277bd; /* A vibrant blue */
+}
+
+.publication-details h2, h3 {
+    font-size: 0.9em;
+    color: #555;
 }
 
 .content-wrapper {
@@ -39,14 +44,6 @@ header h1, header h2, header h3 {
     justify-content: space-between;
     align-items: stretch;
     margin-top: 20px;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    width: 100%; /* Full width of the content-wrapper for symmetry */
 }
 
 .image-container, .transcription-container {
@@ -80,51 +77,47 @@ footer {
     font-size: 0.85em;
 }
 
-.person-info {
+/* Additional styles for detailed information section */
+.detailed-info {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    width: 100%; /* Each info section fills the width */
+    margin-top: 20px;
 }
 
-.info-column {
-    flex: 1 1 50%; /* Flex-grow and flex-basis modified */
+.info-block {
+    flex: 1;
     padding: 10px;
-    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-right: 20px;
 }
 
-.field {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.info-category {
+    background: #f9f9f9;
+    padding: 10px;
     margin-bottom: 10px;
-    width: 100%; /* Ensures the field uses all available space */
 }
 
-.label, .value {
-    display: block;
-    flex: 1; /* Each takes equal space */
-    padding: 0 5px; /* Slight padding for separation */
+.info-category h3 {
+    color: #0277bd;
+}
+
+/* Last child margin correction */
+.info-block:last-child {
+    margin-right: 0;
 }
 
 @media (max-width: 768px) {
-    .content-wrapper, .footer-container {
+    .detailed-info {
         flex-direction: column;
-        align-items: center;
+    }
+
+    .info-block {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .image-container {
         margin-right: 0;
         margin-bottom: 20px;
-    }
-
-    .person-info {
-        flex-direction: column;
-    }
-
-    .info-column {
-        width: 100%; /* Full width in mobile view */
     }
 }
