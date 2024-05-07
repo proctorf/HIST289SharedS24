@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif; /* A modern, clean font */
-    background-color: #f4f4f9;
+    background-color: #f0f2f5; /* Softer background */
     color: #333;
     line-height: 1.6;
     display: flex;
@@ -18,25 +18,32 @@ body {
 
 .container {
     width: 100%;
-    max-width: 960px; /* Adjusted for better alignment */
+    max-width: 1000px; /* Adjusted for better alignment */
     margin: 20px auto;
     background: white;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Softer shadow for better aesthetics */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* More prominent shadow for depth */
 }
 
 header {
     margin-bottom: 20px;
     text-align: center;
+    border-bottom: 2px solid #0277bd; /* Adds color border for better separation */
+    padding-bottom: 10px;
 }
 
-header h1, header h2, header h3 {
-    color: #0277bd; /* Maintained vibrant blue for headers */
+header h1 {
+    color: #0277bd; /* Vibrant blue for headers */
+    font-size: 2em; /* Larger font size for better emphasis */
+}
+
+header h2, header h3 {
+    color: #555;
 }
 
 .publication-details h2, h3 {
-    font-size: 0.9em;
-    color: #555;
+    font-size: 1em;
 }
 
 .content-wrapper {
@@ -48,62 +55,71 @@ header h1, header h2, header h3 {
 
 .image-container, .transcription-container {
     flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
     margin-bottom: 20px; /* Ensures spacing between sections */
+    background-color: #f9f9f9; /* Light background for images and transcription */
 }
 
 .image-container img {
-    width: 100%; /* Ensures image fills container */
+    width: 100%;
     height: auto;
+    border-radius: 8px; /* Rounded corners for images */
 }
 
-.transcription-container {
-    background: #f9f9f9;
+.transcription-container h2 {
+    margin-bottom: 10px;
 }
 
 .sub-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Ensures even distribution */
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .bucket {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: #E0E0E0; /* Light grey background for separation */
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+    background: #ffffff; /* White background for better focus */
+    padding: 15px;
+    margin-bottom: 15px; /* Add space between buckets */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
 .bucket-half {
     flex: 1;
     padding: 10px;
     margin: 5px;
-    background: white; /* White background for content areas */
+    background: #f7f8fa; /* Slightly lighter background for differentiation */
+    border-radius: 8px; /* Rounded corners */
 }
 
 .field {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .label {
     font-weight: bold;
-    color: #333; /* Darker text for better readability */
+    color: #0277bd; /* Blue color for labels */
+    flex: 1; /* Allow more space for labels */
 }
 
 .value {
-    flex-grow: 1; /* Allows value to take up remaining space */
-    text-align: right; /* Aligns text to the right for consistency */
+    flex: 2; /* Allow more space for values */
+    text-align: left; /* Aligns text to the left for consistency */
+    padding-left: 10px; /* Adds spacing for better readability */
 }
 
 footer {
     margin-top: 20px;
     text-align: center;
     font-size: 0.85em;
+    color: #666;
 }
 
 @media (max-width: 768px) {
