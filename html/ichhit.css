@@ -124,28 +124,25 @@ footer {
     color: #666;
 }
 
-.location-info {
-    padding: 10px;
-    margin-bottom: 10px; /* Space between each location block */
+.location-info .geo-field {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.location-info:not(:last-child) {
-    border-bottom: 2px solid #0277bd; /* Blue line for separation */
+.location-info .label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px; /* Space between label and value */
+    font-weight: bold;
 }
 
-.label, .value {
-    display: block;
-    margin-bottom: 5px; /* Adds bottom margin for spacing */
+.location-info .value {
+    flex: 2;
+    text-align: left;
 }
 
-.value {
-    margin-left: 20px; /* Indent value for better visual hierarchy */
-}
-
-/* Specific classes for each type of data */
-.type, .settlement, .state, .country, .coordinates {
-    margin-bottom: 5px;
-}
 
 @media (max-width: 768px) {
     .content-wrapper, .sub-container {
