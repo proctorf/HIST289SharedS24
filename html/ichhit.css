@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+/* Root Color Definitions */
+:root {
+    --primary-color: #5D1049; /* Deep Purple */
+    --secondary-color: #B1A2CA; /* Soft Lavender */
+    --background-color: #F4F4F7; /* Very light grey */
+    --text-color: #333333;
+    --accent-color: #FFD700; /* Gold for highlights */
+}
+
 /* Basic Reset */
 * {
     margin: 0;
@@ -6,9 +17,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* A modern, clean font */
-    background-color: #f0f2f5; /* Softer background */
-    color: #333;
+    font-family: 'Nunito', sans-serif; /* A modern, clean font */
+    background-color: var(--background-color);
+    color: var(--text-color);
     line-height: 1.6;
     display: flex;
     justify-content: center;
@@ -29,20 +40,18 @@ body {
 header {
     margin-bottom: 20px;
     text-align: center;
-    border-bottom: 2px solid #0277bd; /* Adds color border for better separation */
+    border-bottom: 2px solid var(--primary-color); /* Adds color border for better separation */
     padding-bottom: 10px;
 }
 
 header h1 {
-    color: #0277bd; /* Vibrant blue for headers */
+    color: var(--primary-color); /* Vibrant blue for headers */
     font-size: 2em; /* Larger font size for better emphasis */
+    font-family: 'Playfair Display', serif;
 }
 
 header h2, header h3 {
     color: #555;
-}
-
-.publication-details h2, h3 {
     font-size: 1em;
 }
 
@@ -93,21 +102,20 @@ header h2, header h3 {
     flex: 1;
     padding: 10px;
     margin: 5px;
-    background: #f7f8fa; /* Slightly lighter background for differentiation */
+    background: var(--secondary-color); /* Slightly lighter background for differentiation */
     border-radius: 8px; /* Rounded corners */
 }
 
 .field {
     display: flex;
     justify-content: space-between;
-    width: 100%; /* Ensure the field takes full width of its container */
     margin-bottom: 10px;
 }
 
 .label {
     flex: 1; /* Gives the label part of the space */
     font-weight: bold;
-    color: #333;
+    color: var(--primary-color);
     text-align: left; /* Ensures labels are left aligned */
 }
 
@@ -127,5 +135,24 @@ footer {
 @media (max-width: 768px) {
     .content-wrapper, .sub-container {
         flex-direction: column;
+    }
+
+    .bucket-half {
+        width: 100%; /* Makes each half take full width on small screens */
+        margin-bottom: 10px;
+    }
+
+    header, .bucket {
+        text-align: center; /* Centers content on small screens */
+    }
+
+    .field {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .value {
+        text-align: left; /* Adjust alignment for mobile */
+        padding-left: 0;
     }
 }
