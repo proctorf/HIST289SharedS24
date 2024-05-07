@@ -18,12 +18,12 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1000px; /* Adjusted for better alignment */
+    max-width: 1000px;
     margin: 20px auto;
     background: white;
     padding: 20px;
     border-radius: 8px; /* Rounded corners for better aesthetics */
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* More prominent shadow for depth */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 header {
@@ -35,7 +35,7 @@ header {
 
 header h1 {
     color: #0277bd; /* Vibrant blue for headers */
-    font-size: 2em; /* Larger font size for better emphasis */
+    font-size: 2em;
 }
 
 header h2, header h3 {
@@ -57,7 +57,7 @@ header h2, header h3 {
     flex: 1;
     padding: 15px;
     border-radius: 8px;
-    margin-bottom: 20px; /* Ensures spacing between sections */
+    margin-bottom: 20px;
     background-color: #f9f9f9; /* Light background for images and transcription */
 }
 
@@ -174,7 +174,13 @@ footer {
     color: #ccc;
 }
 
-
+.timeline-heading {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #333; /* Adjust color to match your site's theme */
+    font-weight: bold;
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .content-wrapper, .sub-container {
