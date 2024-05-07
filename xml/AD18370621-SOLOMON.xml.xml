@@ -2,7 +2,7 @@
 <?xml-model href="Ad%20Schema%20Ichhit.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <header>
-        <adID id="AD1837-SOLOMON"/>
+        <adID id="AD18370621-SOLOMON"/>
         <citationInfo>
             <journalTitle>Cincinnati Daily Gazette</journalTitle>
             <publicationDate when="1837-06-21">
