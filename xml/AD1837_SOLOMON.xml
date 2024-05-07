@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Ad%20Schema%20Ichhit.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <adID id="AD1837-SOLOMON"/>
+        <citationInfo>
+            <journalTitle>Cincinnati Daily Gazette</journalTitle>
+            <publicationDate when="1837-06-21">
+                June 21, 1837
+                <repeatDates date="1837-06-20"/>
+                <repeatDates date="1837-06-22"/>
+                <repeatDates date="1837-06-24"/>
+                <repeatDates date="1837-06-26"/>
+                <repeatDates date="1837-06-27"/>
+            </publicationDate>
+            <publicationPlace settlement="Cincinnati" state="Ohio">Cincinnati, Ohio</publicationPlace>
+            <page>3</page>
+<url>https://infoweb.newsbank.com/apps/readex/doc?p=EANX&amp;docref=image/v2%3A11AA36D3199EFD90%40EANX-1282C4DA39F56AE8%402392182-1282C4DA7B7E3598%402-1282C4DB2FF80780%40Advertisement</url>
+            <adUrl>https://proctorf.github.io/HIST289SharedS24/images/1837-6-21-Solomon.png</adUrl>
+        </citationInfo>
+
+        <respDesc>
+            <created resp="#ij" when="2024-04-27">Created by Ichhit Joshi</created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>Two Hundred dollars Reward. </p>
+        
+        <p>Stop the thief! Runaway from the subscriber’s farm near <place placeType="origin">Lexington Ky.</place> on the 14th instant a Negro man named <name xml:id="">Solomon</name> about five foot nine or ten inches height about 30 years old a dark Mulatto or rather yellow or what is sometimes called Mahogany color; no particular marks remembered. He has a rather pleasant countenance but something of a downward look not generally looking those in the face to whom he is speaking; his cheeks show dimples when he smiles. He stole and rode off a bay mare about fifteen and a half hands high six or seven years old a natural pacer no white spots recalled except those made by the collar which are considerable; shod all round. He has probably made for <place placeType="potential destination">Canada</place>.</p>
+        
+        <p>The above reward of two hundred dollars will be given for the Negro, if taken out of the State: or fifty dollars if taken within the State, and $20 for the horse. Confinement of the Thief in some jail where I can get him, will entitle that taker to the reward, and if he be brought to me, the reascusable expense of bringing him shall be paid.</p>
+        <p>
+            <name xml:id="">David Castleman</name>
+        </p>
+    </transcript>
+    <footer>
+        <adType type=""/>
+        <rewardInfo>
+            <amount  maxAmount="200" minAmount="50">Two Hundred Dollars</amount>
+            <criteria>In State: $50, Out of State: $200, $20 for horse recovery</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Solomon">Solomon
+                <characteristics>
+                    <physical>
+                        <minHeight inches="69">5 feet 9 inches</minHeight>
+                        <maxHeight inches="70">5 feet 10 inches</maxHeight>
+                        <build>Medium</build>
+                        <phenotype>Dark Mulatto / Mahogany</phenotype>
+                        <minAge years="30">30</minAge>
+                    </physical>
+                    <countenance>
+                        <behavior>Rather pleasant countenance, but something of a downward look, not generally looking those in the face to whom he is speaking</behavior>
+                        <speech></speech>
+                    </countenance>
+                    <otherFeatures>
+                        <horse hadHorse="y">
+                            stole and rode off a bay mare about fifteen and a half hands high six or seven years old a natural pacer no white spots recalled except those made by the collar which are considerable; shod all round  
+                        </horse> 
+                    </otherFeatures>
+                </characteristics>
+                
+            </persName>
+            <persName xml:id="" role="enslaver" sex="m" foreName="David" surName="Castleman">David Castleman<characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics>
+            </persName>
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" settlement="Lexington" state="KY" country = "USA" lat="38.047989" long="-84.501640"/>
+            <placeName placeType="potential destination" country="Canada" lat="60.0000" long="-95.0000"/>
+        </listPlace>
+    </footer>
+</xml>
