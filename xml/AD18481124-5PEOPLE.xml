@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Ad_Schema_Ichhit.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <adID id="AD18481124-5PEOPLE"/>
+        <citationInfo>
+            <journalTitle>Plain Dealer</journalTitle>
+            <publicationDate when="1848-11-24">November 24, 1848</publicationDate>
+            <publicationPlace settlement="Cleveland" state="Ohio">Cleveland, Ohio</publicationPlace>
+            <page>2</page>
+            <adUrl>https://proctorf.github.io/HIST289SharedS24/images/PlainDealer_5_People_Ad.png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="#ij" when="2024-04-08">Created by Ichhit Joshi</created>
+        </respDesc>
+    </header>
+    <transcript>
+        <p>$900 REWARD will be paid for the apprehension and delivery of five runaway negroes to their owners in <place placeType="origin">St. Louis</place>, to wit: One hundred dollars for each one, and four hundred for the apprehension of the person who enticed them away, if he is convicted of the crime. The following is the description:</p>
+        <p><name xml:id="">Priscilla</name>, a girl belonging to <name xml:id="">Edward Bredell</name>, rather tall and squares built, dark complexioned, about 22 or 23 years age, if confused would have impediment of speech.</p>
+        <p><name xml:id="">Amanda</name>, a girl belonging to <name xml:id="">Mrs. A. M. Perry</name>, about 17 years old; dark complexioned; rather slout built, and of slow speech.</p>
+        <p><name xml:id="">Nancy</name>, a girl belonging to <name xml:id="">A. L. Allen</name>; about 18 years old; stout, thick set, full face, flat nose, who is quick spoken; had on when she left, plaid gingham dress; wore a plain gold ring on her fore finger.</p>
+        <p><name xml:id="">Theresa</name>, a mulatto girl belonging to <name xml:id="">Barnard Pratte</name>, aged about 17; well grown and very good looking; has a small wen in the corner of her right eye.</p>
+        <p>A negro man belonging to <name xml:id="">L. C. Dessaint</name>, named <name xml:id="">Martin</name>, about 33 years of age; spare built, about 5 feet 10 inches high, copper color, and his hair quite grey, quick spoken and a pretty smart boy.</p>
+        <p><name xml:id="">EDWARD BREDELL</name>.</p>
+        <p><name xml:id="">A. L. ALLEN</name>.</p>
+        <p><name xml:id="">BERNARD PRATTE</name>.</p>
+        <p><name xml:id="">L. C. DESSAINT</name>.</p>
+    </transcript>
+    <footer>
+        <adType type=""></adType>
+        <rewardInfo>
+            <amount  maxAmount="900" minAmount="100">Nine Hundred Dollars</amount>
+            <criteria>For the apprehension and delivery of five runaway negroes to their owners in St. Louis.</criteria>
+        </rewardInfo>
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="f" foreName="Priscilla">Priscilla
+                <characteristics>
+                <physical>
+                    <phenotype>Dark</phenotype>
+                    <minAge years="22">22</minAge>
+                    <maxAge years="23">23</maxAge>
+                    <build>rather tall and squares built</build>
+                </physical>
+                <countenance>
+                    <speech>if confused would have impediment of speech</speech>
+                </countenance>
+                <otherFeatures>
+                    <inAGroup group='y'>
+                        <with>Amanda, Nancy, Theresa, Martin</with>
+                    </inAGroup>
+                    <hadHelp>Yes</hadHelp>
+                </otherFeatures>
+            </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaved" sex="f" foreName="Amanda">Amanda
+                <characteristics>
+                    <physical>
+                        <phenotype>Dark</phenotype>
+                        <minAge years="17">17</minAge>
+                        <build>rather slout built</build>
+                    </physical>
+                    <countenance>
+                        <speech>of slow speech</speech>
+                    </countenance>
+                    <otherFeatures>
+                        <inAGroup group='y'>
+                            <with>Priscilla, Nancy, Theresa, Martin</with>
+                        </inAGroup>
+                        <hadHelp>Yes</hadHelp>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaved" sex="f" foreName="Nancy">Nancy
+                <characteristics>
+                    <physical>
+                        <phenotype>Dark</phenotype>
+                        <minAge years="18">18</minAge>
+                        <build>stout, thick set, full face, flat nose</build>
+                        <clothing>plaid gingham dress</clothing>
+                        <possessions>plain gold ring</possessions>
+                    </physical>
+                    <countenance>
+                        <speech>quick spoken</speech>
+                    </countenance>
+                    <otherFeatures>
+                        <inAGroup group='y'>
+                            <with>Priscilla, Amanda, Theresa, Martin</with>
+                        </inAGroup>
+                        <hadHelp>Yes</hadHelp>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaved" sex="f" foreName="Theresa">Theresa
+                <characteristics>
+                    <physical>
+                        <phenotype>Mulatto</phenotype>
+                        <minAge years="17">17</minAge>
+                        <build>well grown and very good looking</build>
+                        <eyes>small wen in the corner of her right eye</eyes>
+                    </physical>
+                    <countenance>
+                    </countenance>
+                    <otherFeatures>
+                        <inAGroup group='y'>
+                            <with>Priscilla, Amanda, Nancy, Martin</with>
+                        </inAGroup>
+                        <hadHelp>Yes</hadHelp>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaved" sex="m" foreName="Martin">Martin
+                <characteristics>
+                    <physical>
+                        <phenotype>Copper</phenotype>
+                        <minAge years="33">33</minAge>
+                        <build>spare built</build>
+                        <minHeight inches="70">5 feet 10 inches</minHeight>
+                    </physical>
+                    <countenance>
+                        <speech>quick spoken</speech>
+                        <behavior>pretty smart</behavior>
+                    </countenance>
+                    <otherFeatures>
+                        <inAGroup group='y'>
+                            <with>Priscilla, Amanda, Nancy, Theresa</with>
+                        </inAGroup>
+                        <hadHelp>Yes</hadHelp>
+                    </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="Edward" surName="Bredell">Edward Bredell<characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            
+            <persName xml:id="" role="enslaver" sex="f" foreName="A." midName="M." surName="Perry">Mrs. A. M. Perry<characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="A." midName="L." surName="Allen">A. L. Allen<characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="Barnard" surName="Pratte">Barnard Pratte<characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="L." midName="C." surName="Dessaint">L. C. Dessaint<characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" settlement = "St.Louis" state="Missouri" country="USA" lat="38.630737" long = "-90.199501">St. Louis</placeName>
+        </listPlace>
+    </footer>
+</xml>
