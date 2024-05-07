@@ -124,24 +124,39 @@ footer {
     color: #666;
 }
 
+.location-info {
+    margin-bottom: 10px; /* Adds space between each location info block */
+}
+
 .location-info .geo-field {
-    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px; /* Adds space at the bottom of each field */
+    border-bottom: 1px solid #0277bd; /* Blue line for separation */
+}
+
+.location-info .geo-field:last-child {
+    border-bottom: none; /* Removes border from the last element */
 }
 
 .location-info .label {
     flex: 1;
-    text-align: right;
+    text-align: left; /* Aligns labels to the left */
     margin-right: 10px; /* Space between label and value */
     font-weight: bold;
 }
 
 .location-info .value {
     flex: 2;
-    text-align: left;
+    text-align: right; /* Aligns values to the right */
 }
+
+/* Add some space above the first geo-field to separate it from the title */
+.location-info .geo-field:first-child {
+    padding-top: 10px;
+}
+
 
 
 @media (max-width: 768px) {
