@@ -135,8 +135,12 @@ footer {
     padding-bottom: 10px; /* Adds space at the bottom of each field */
 }
 
-.location-info .geo-field:last-child {
-    border-bottom: 1px solid #0277bd; /* Blue line for separation only after the last field */
+.location-info:last-child .geo-field:last-child {
+    border-bottom: none; /* No border for the last geo-field of the last location-info */
+}
+
+.location-info:not(:last-child) .geo-field:last-child {
+    border-bottom: 1px solid #0277bd; /* Only add bottom border if it is not the last location-info block */
 }
 
 .location-info .label {
@@ -151,10 +155,6 @@ footer {
     text-align: right; /* Aligns values to the right */
 }
 
-/* Ensure that other elements do not have a bottom border */
-.location-info .geo-field:not(:last-child) {
-    border-bottom: none;
-}
 
 @media (max-width: 768px) {
     .content-wrapper, .sub-container {
