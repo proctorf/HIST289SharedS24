@@ -124,6 +124,28 @@ footer {
     color: #666;
 }
 
+.location-info {
+    padding: 10px;
+    margin-bottom: 10px; /* Space between each location block */
+}
+
+.location-info:not(:last-child) {
+    border-bottom: 2px solid #0277bd; /* Blue line for separation */
+}
+
+.label {
+    display: block; /* Makes label take the full width */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px; /* Adds bottom margin for spacing */
+}
+
+.value {
+    display: block; /* Allows value to be on a new line, improving readability */
+    margin-left: 20px; /* Indent value for better visual hierarchy */
+}
+
+
 @media (max-width: 768px) {
     .content-wrapper, .sub-container {
         flex-direction: column;
