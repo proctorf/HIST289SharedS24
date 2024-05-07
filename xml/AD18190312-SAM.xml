@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Ad_Schema_Ichhit.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <adID id="AD18190312-SAM"/>
+        <citationInfo>
+            <journalTitle>The Scioto Gazette</journalTitle>
+            <publicationDate when="1819-03-12">March 12, 1819</publicationDate>
+            <publicationPlace settlement="Chillicothe" state="Ohio">Chillicothe, Ohio</publicationPlace>
+            <page>4</page>
+            <adUrl>https://proctorf.github.io/HIST289SharedS24/images/XML_ad_Sam.png</adUrl>
+        </citationInfo>
+        <respDesc>
+            <created resp="#ij" when="2024-03-07">Created by Ichhit Joshi</created>
+        </respDesc>
+    </header>
+    
+   <transcript>
+       <p>$100 REWARD.</p>
+       <p>Ranaway from the subscriber living near the <place placeType = "origin">mouth of Little Sandy on the Ohio river, Greenup county, Kentucky</place>, on the <date when="1813-01-17" dateType="departure">17th day of January, 1819</date>, a Black Man named</p>
+       <p>
+           <name xml:id="">
+               <hi rend="allCaps | bold">SAM</hi>
+           </name>      
+       </p>
+       <p>
+           About 40 years of age, his complexion a little inclined to be yellow, about five feet eight inches high, heavy and well set, remarkable by being bow legged, it is believed he has one tooth out before, his speech is harsh and abrupt; he carried away with him a large bundle of clothing of various kinds, which cannot be described; he was formerly in the habit of fortune telling, but that having been the cause of his detection on a former runaway trip, it is possible he may not again practise it. Any person who will apprehend and deliver to me said African-American at my place of residence as above stated, shall receive the above reward. For securing him in any jail so that I get him, 50 dollars will be given. It is believed he carried away with him a pair of long boots. 
+       </p>
+       <p>
+           <name xml:id="">J. B. BOON</name>.
+       </p>
+       <p>
+           <date dateType="dateWritten" when="1819-02-04">February 20, 1819
+           </date>  20  3</p>
+   </transcript>
+    
+    <footer>
+        <adType type=""></adType>
+        <rewardInfo>
+            <amount maxAmount="100" minAmount="50">Hundred dollars</amount>
+            <criteria>Any person who will apprehend and deliver to me said African-American at my place of residence. For securing him in any jail so that I get him, 50 dollars will be given.</criteria>
+        </rewardInfo>
+        
+        <listPerson>
+            <persName xml:id="" role="enslaved" sex="m" foreName="Sam">Sam
+                <characteristics>
+                <physical>
+                    <phenotype>Yellow</phenotype>
+                    <minAge years="40">40 years of age</minAge>
+                    <minHeight inches="68">5 feet 8 inches</minHeight>
+                    <build>heavy and well set, remarkable by being bow legged</build>
+                    <teeth>has one tooth out before</teeth>
+                    <possessions>a large bundle of clothing of various kinds, which cannot be describe and a pair of long boots.</possessions>
+                </physical>
+                    
+                <countenance>
+                    <speech>harsh and abrupt</speech>
+                    <previousRunaway ran="y"></previousRunaway>
+                </countenance>
+                    
+                <otherFeatures>
+                    <skills>was formerly in the habit of fortune telling, but that having been the cause of his detection on a former runaway trip, it is possible he may not again practise it</skills>
+                </otherFeatures>
+                </characteristics>
+            </persName>
+            
+            <persName xml:id="" role="enslaver" sex="m" foreName="J." midName = " B." surName="Boon">J. B. Boon<characteristics>
+                <physical></physical>
+                <countenance></countenance>
+                <otherFeatures></otherFeatures>
+            </characteristics></persName>
+            
+        </listPerson>
+        <listPlace>
+            <placeName placeType="origin" settlement="Little Sandy River" county="Greenup" state="Kentucky"
+                country="USA" lat="38.5792" long="-82.84277">mouth of Little Sandy on the Ohio river, Greenup county, Kentucky</placeName>
+        </listPlace>
+    </footer>
+</xml>
