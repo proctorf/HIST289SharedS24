@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif; /* A modern, clean font */
-    background-color: #f0f2f5; /* Softened background for less strain */
+    background-color: #f0f2f5; /* Softer background */
     color: #333;
     line-height: 1.6;
     display: flex;
@@ -18,28 +18,32 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1000px; /* Optimized for most screens */
+    max-width: 1000px; /* Adjusted for better alignment */
     margin: 20px auto;
-    background: white; /* Main background stays clean and simple */
+    background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* More prominent shadow for depth */
 }
 
 header {
     margin-bottom: 20px;
     text-align: center;
-    border-bottom: 2px solid #0277bd; /* Subtle use of the primary color */
+    border-bottom: 2px solid #0277bd; /* Adds color border for better separation */
     padding-bottom: 10px;
 }
 
 header h1 {
-    color: #0277bd; /* Bold color for header */
-    font-size: 2em;
+    color: #0277bd; /* Vibrant blue for headers */
+    font-size: 2em; /* Larger font size for better emphasis */
 }
 
 header h2, header h3 {
-    color: #555; /* Subdued for less focus */
+    color: #555;
+}
+
+.publication-details h2, h3 {
+    font-size: 1em;
 }
 
 .content-wrapper {
@@ -51,15 +55,16 @@ header h2, header h3 {
 
 .image-container, .transcription-container {
     flex: 1;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
-    background-color: #f9f9f9; /* Light gray background to differentiate section */
+    margin-bottom: 20px; /* Ensures spacing between sections */
+    background-color: #f9f9f9; /* Light background for images and transcription */
 }
 
 .image-container img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 8px; /* Rounded corners for images */
 }
 
 .transcription-container h2 {
@@ -77,35 +82,39 @@ header h2, header h3 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: white; /* Buckets are kept white for a clean look */
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #eee; /* Very light border to softly define the area */
-    border-radius: 8px;
+    background: #ffffff; /* White background for better focus */
+    padding: 15px;
+    margin-bottom: 15px; /* Add space between buckets */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
 .bucket-half {
     flex: 1;
     padding: 10px;
     margin: 5px;
+    background: #f7f8fa; /* Slightly lighter background for differentiation */
+    border-radius: 8px; /* Rounded corners */
 }
 
 .field {
     display: flex;
     justify-content: space-between;
+    width: 100%; /* Ensure the field takes full width of its container */
     margin-bottom: 10px;
 }
 
 .label {
+    flex: 1; /* Gives the label part of the space */
     font-weight: bold;
     color: #333;
-    flex: 1;
+    text-align: left; /* Ensures labels are left aligned */
 }
 
 .value {
-    flex: 2;
-    text-align: right;
-    padding-left: 10px;
+    flex: 2; /* Gives more space to the value, pushing it to the right */
+    text-align: right; /* Ensures values are right aligned */
+    padding-left: 10px; /* Adds some spacing between label and value */
 }
 
 footer {
@@ -118,15 +127,5 @@ footer {
 @media (max-width: 768px) {
     .content-wrapper, .sub-container {
         flex-direction: column;
-    }
-
-    .field {
-        flex-direction: column;
-        align-items: start;
-    }
-
-    .value {
-        text-align: left; /* Adjust alignment for mobile */
-        padding-left: 0;
     }
 }
