@@ -100,19 +100,21 @@ header h2, header h3 {
 .field {
     display: flex;
     justify-content: space-between;
+    width: 100%; /* Ensure the field takes full width of its container */
     margin-bottom: 10px;
 }
 
 .label {
+    flex: 1; /* Gives the label part of the space */
     font-weight: bold;
-    color: #333; /* Darker text for better readability */
-    flex: 1; /* Allow more space for labels */
+    color: #333;
+    text-align: left; /* Ensures labels are left aligned */
 }
 
 .value {
-    flex: 2; /* Allow more space for values */
-    text-align: left; /* Aligns text to the left for consistency */
-    padding-left: 10px; /* Adds spacing for better readability */
+    flex: 2; /* Gives more space to the value, pushing it to the right */
+    text-align: right; /* Ensures values are right aligned */
+    padding-left: 10px; /* Adds some spacing between label and value */
 }
 
 footer {
