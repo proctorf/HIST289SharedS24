@@ -133,18 +133,19 @@ footer {
     border-bottom: 2px solid #0277bd; /* Blue line for separation */
 }
 
-.label {
-    display: block; /* Makes label take the full width */
-    font-weight: bold;
-    color: #333;
+.label, .value {
+    display: block;
     margin-bottom: 5px; /* Adds bottom margin for spacing */
 }
 
 .value {
-    display: block; /* Allows value to be on a new line, improving readability */
     margin-left: 20px; /* Indent value for better visual hierarchy */
 }
 
+/* Specific classes for each type of data */
+.type, .settlement, .state, .country, .coordinates {
+    margin-bottom: 5px;
+}
 
 @media (max-width: 768px) {
     .content-wrapper, .sub-container {
