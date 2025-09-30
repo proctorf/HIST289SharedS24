@@ -26,7 +26,7 @@ change = element change { resp, when, text }
 
 transcript = element transcript { p*, graphic*, lb*, hi*, text } # this is where you add the text of your add
 graphic = element graphic { rend?, height?, width?, relativeUrl?, figDesc? } # use this if there is an image in the ad
-rend = attribute rend { "left" | "right" | "bold" | "italics" | "long s" | "allCaps" | text }# hi= highlights, location of image of any phyusical elements of the ad
+rend = attribute rend { "left" | "right" | "bold" | "italics" | "long s" | "allCaps" | text }# hi= highlights, location of image or any physical elements of the ad
 height = attribute height { text } # 
 width = attribute width { text }
 relativeUrl = attribute relativeURL { text }# location of copy of image 
